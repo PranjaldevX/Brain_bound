@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize - BrainBound</title>
+    <link rel="stylesheet" href="style-advanced.css">
+</head>
+<body>
+    <div class="game-container">
+        <header class="game-header">
+            <div class="logo">
+                <h1>🧠 BrainBound</h1>
+            </div>
+            <div class="player-stats">
+                <span class="xp-display">⚡ <span id="playerXP">0</span> XP</span>
+                <span class="level-display">🎯 Level <span id="playerLevel">1</span></span>
+            </div>
+        </header>
+
+        <div id="customizeMode" class="screen active"></div>
+    </div>
+
+    <script src="safari-customization-simple.js"></script>
+    
+    <script>
+        // Override showMainMenu for back button
+        function showMainMenu() {
+            window.location.href = 'index.html';
+        }
+        
+        // Load player stats from localStorage
+        function loadProgress() {
+            const saved = localStorage.getItem('brainboundProgress');
+            if (saved) {
+                const data = JSON.parse(saved);
+                return data;
+            }
+            return { playerXP: 0, playerLevel: 1 };
+        }
+        
+        function updatePlayerStats() {
+            const progress = loadProgress();
+            const xpEl = document.getElementById('playerXP');
+            const levelEl = document.getElementById('playerLevel');
+            if (xpEl) xpEl.textContent = progress.playerXP || 0;
+            if (levelEl) levelEl.textContent = progress.playerLevel || 1;
+        }
+        
+        // Initialize on load
+        window.onload = function() {
+            updatePlayerStats();
+            if (typeof SimpleCustomization !== 'undefined') {
+                SimpleCustomization.showMenu();
+            }
+        };
+    </script>
+</body>
+</html>

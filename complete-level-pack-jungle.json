@@ -1,0 +1,1165 @@
+{
+  "levelPack": {
+    "topic": "Jungle Safari",
+    "packTitle": "Jungle Safari Adventure",
+    "packDescription": "Join Ranger Leo on an exciting expedition through the wild jungle!",
+    "totalLevels": 20,
+    "estimatedTime": "60-80 minutes",
+    "ageRange": "5-8 years",
+    "levels": [
+      {
+        "levelNumber": 1,
+        "title": "Animal Homes",
+        "miniStory": "Ranger Leo needs help matching jungle animals to their homes.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🐒 Monkey", "right": "🌳 Trees" },
+            { "left": "🐊 Crocodile", "right": "💧 River" },
+            { "left": "🦜 Parrot", "right": "🌴 Canopy" },
+            { "left": "🐍 Snake", "right": "🪵 Hollow Log" },
+            { "left": "🦁 Lion", "right": "🌾 Grassland" }
+          ],
+          "instruction": "Match each animal to its natural habitat!"
+        },
+        "hint": "Monkeys love to swing in trees!",
+        "funFact": "Monkeys use their tails like an extra hand!",
+        "rewardBadge": { "badgeName": "Jungle Guide", "xp": 10 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Welcome! I'm Ranger Leo! Help me match animals to homes!",
+          "success": "🦁 Fantastic! You understand animal habitats!"
+        }
+      },
+      {
+        "levelNumber": 2,
+        "title": "River Crossing",
+        "miniStory": "Cross the jungle river safely using stepping stones!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 4,
+          "start": [0, 0],
+          "end": [3, 3],
+          "obstacles": [[1, 1], [2, 2]],
+          "instruction": "Navigate across the river!"
+        },
+        "hint": "Use the stepping stones!",
+        "funFact": "Amazon River has over 3,000 species of fish!",
+        "rewardBadge": { "badgeName": "River Navigator", "xp": 15 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Help me cross this river safely!",
+          "success": "🦁 Excellent! We made it across!"
+        }
+      },
+      {
+        "levelNumber": 3,
+        "title": "Food Chain",
+        "miniStory": "Arrange the jungle food chain!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🌿 Plants", "🦗 Insects", "🐸 Frog", "🐍 Snake", "🦅 Eagle"],
+          "options": ["🦅 Eagle", "🌿 Plants", "🐍 Snake", "🦗 Insects", "🐸 Frog"],
+          "instruction": "Arrange from producers to predators!"
+        },
+        "hint": "Start with plants!",
+        "funFact": "Food chains keep nature in balance!",
+        "rewardBadge": { "badgeName": "Ecosystem Expert", "xp": 20 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Let's learn about the food chain!",
+          "success": "🦁 Perfect! You understand nature's balance!"
+        }
+      },
+      {
+        "levelNumber": 4,
+        "title": "Animal Sounds",
+        "miniStory": "Match animals to their sounds!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🦁 Lion", "right": "🔊 ROAR!" },
+            { "left": "🐒 Monkey", "right": "🔊 OOH-AH!" },
+            { "left": "🦜 Parrot", "right": "🔊 SQUAWK!" },
+            { "left": "🐘 Elephant", "right": "🔊 TRUMPET!" },
+            { "left": "🐸 Frog", "right": "🔊 RIBBIT!" }
+          ],
+          "instruction": "Match animals to sounds!"
+        },
+        "hint": "Lions roar loudly!",
+        "funFact": "Howler monkeys are the loudest land animals!",
+        "rewardBadge": { "badgeName": "Sound Tracker", "xp": 25 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Listen! Match each animal to its call!",
+          "success": "🦁 Amazing! You can identify animals by sound!"
+        }
+      },
+      {
+        "levelNumber": 5,
+        "title": "Jungle Trail",
+        "miniStory": "Navigate through dense jungle!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 5,
+          "start": [0, 2],
+          "end": [4, 2],
+          "obstacles": [[1, 1], [2, 3], [3, 1]],
+          "instruction": "Find the path through jungle!"
+        },
+        "hint": "Watch for thick vines!",
+        "funFact": "Elephants create natural jungle trails!",
+        "rewardBadge": { "badgeName": "Trail Blazer", "xp": 30 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Let's explore deeper into the jungle!",
+          "success": "🦁 Great navigation skills!"
+        }
+      },
+      {
+        "levelNumber": 6,
+        "title": "Camouflage Hunt",
+        "miniStory": "Match animals to their camouflage!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🐆 Leopard", "right": "🟤 Spotted Pattern" },
+            { "left": "🦎 Chameleon", "right": "🟢 Leaf Green" },
+            { "left": "🐅 Tiger", "right": "🟠 Orange Stripes" },
+            { "left": "🦗 Stick Insect", "right": "🟫 Brown Twig" },
+            { "left": "🐸 Tree Frog", "right": "🟩 Bright Green" }
+          ],
+          "instruction": "Match animals to camouflage!"
+        },
+        "hint": "Animals blend with surroundings!",
+        "funFact": "Leaf-tailed gecko looks exactly like a dead leaf!",
+        "rewardBadge": { "badgeName": "Camouflage Master", "xp": 35 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Find the hidden animals!",
+          "success": "🦁 Nothing can hide from you!"
+        }
+      },
+      {
+        "levelNumber": 7,
+        "title": "Monkey Business",
+        "miniStory": "Help monkeys arrange by size!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🐒 Baby Monkey", "🐵 Young Monkey", "🦍 Adult Monkey", "🦧 Big Gorilla", "👑 King Kong"],
+          "options": ["👑 King Kong", "🐒 Baby Monkey", "🦧 Big Gorilla", "🐵 Young Monkey", "🦍 Adult Monkey"],
+          "instruction": "Arrange monkeys by size!"
+        },
+        "hint": "Start with the smallest!",
+        "funFact": "Gorillas can be 6 feet tall!",
+        "rewardBadge": { "badgeName": "Monkey Expert", "xp": 40 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Help organize the monkey troop!",
+          "success": "🦁 Perfect monkey knowledge!"
+        }
+      },
+      {
+        "levelNumber": 8,
+        "title": "Waterfall Path",
+        "miniStory": "Navigate to the hidden waterfall!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 5,
+          "start": [0, 0],
+          "end": [4, 4],
+          "obstacles": [[1, 2], [2, 1], [3, 3]],
+          "instruction": "Find the waterfall!"
+        },
+        "hint": "Follow the sound of water!",
+        "funFact": "Angel Falls is the world's highest waterfall!",
+        "rewardBadge": { "badgeName": "Waterfall Finder", "xp": 45 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Let's find the secret waterfall!",
+          "success": "🦁 We found it! Beautiful!"
+        }
+      },
+      {
+        "levelNumber": 9,
+        "title": "Bird Species",
+        "miniStory": "Match jungle birds to features!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🦜 Parrot", "right": "Colorful Feathers" },
+            { "left": "🦅 Eagle", "right": "Sharp Talons" },
+            { "left": "🦉 Owl", "right": "Night Hunter" },
+            { "left": "🦚 Peacock", "right": "Beautiful Tail" },
+            { "left": "🐦 Hummingbird", "right": "Tiny & Fast" }
+          ],
+          "instruction": "Match birds to features!"
+        },
+        "hint": "Parrots are very colorful!",
+        "funFact": "Hummingbirds can fly backwards!",
+        "rewardBadge": { "badgeName": "Bird Watcher", "xp": 50 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Learn about jungle birds!",
+          "success": "🦁 You're a bird expert now!"
+        }
+      },
+      {
+        "levelNumber": 10,
+        "title": "Jungle Layers",
+        "miniStory": "Arrange jungle layers from ground to sky!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🌱 Forest Floor", "🌿 Understory", "🌳 Canopy", "🌴 Emergent Layer", "☁️ Sky"],
+          "options": ["☁️ Sky", "🌱 Forest Floor", "🌴 Emergent Layer", "🌿 Understory", "🌳 Canopy"],
+          "instruction": "Arrange jungle layers!"
+        },
+        "hint": "Start from the ground!",
+        "funFact": "Most animals live in the canopy!",
+        "rewardBadge": { "badgeName": "Jungle Scientist", "xp": 55 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Learn about jungle structure!",
+          "success": "🦁 You understand the jungle perfectly!"
+        }
+      },
+      {
+        "levelNumber": 11,
+        "title": "Predator & Prey",
+        "miniStory": "Match predators to their prey!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🐆 Jaguar", "right": "🦌 Deer" },
+            { "left": "🐍 Snake", "right": "🐭 Mouse" },
+            { "left": "🦅 Eagle", "right": "🐇 Rabbit" },
+            { "left": "🐊 Crocodile", "right": "🐟 Fish" },
+            { "left": "🦎 Lizard", "right": "🦗 Insects" }
+          ],
+          "instruction": "Match predators to prey!"
+        },
+        "hint": "Think about what each animal hunts!",
+        "funFact": "Jaguars are the strongest big cats!",
+        "rewardBadge": { "badgeName": "Hunter Tracker", "xp": 60 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Learn about predator-prey relationships!",
+          "success": "🦁 You understand the hunt!"
+        }
+      },
+      {
+        "levelNumber": 12,
+        "title": "Ancient Temple",
+        "miniStory": "Navigate to the ancient temple!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 6,
+          "start": [0, 0],
+          "end": [5, 5],
+          "obstacles": [[1, 1], [2, 3], [3, 2], [4, 4]],
+          "instruction": "Reach the ancient temple!"
+        },
+        "hint": "The temple is deep in the jungle!",
+        "funFact": "Many ancient temples are hidden in jungles!",
+        "rewardBadge": { "badgeName": "Temple Explorer", "xp": 65 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Let's find the lost temple!",
+          "success": "🦁 We discovered it! Amazing!"
+        }
+      },
+      {
+        "levelNumber": 13,
+        "title": "Insect World",
+        "miniStory": "Match insects to their roles!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🐝 Bee", "right": "Makes Honey" },
+            { "left": "🐜 Ant", "right": "Works in Colony" },
+            { "left": "🦋 Butterfly", "right": "Pollinates Flowers" },
+            { "left": "🪲 Beetle", "right": "Cleans Forest" },
+            { "left": "🦗 Cricket", "right": "Makes Music" }
+          ],
+          "instruction": "Match insects to roles!"
+        },
+        "hint": "Bees make delicious honey!",
+        "funFact": "Ants can carry 50 times their weight!",
+        "rewardBadge": { "badgeName": "Insect Expert", "xp": 70 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Discover the tiny jungle workers!",
+          "success": "🦁 Insects are amazing!"
+        }
+      },
+      {
+        "levelNumber": 14,
+        "title": "Animal Life Cycle",
+        "miniStory": "Arrange butterfly life cycle!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🥚 Egg", "🐛 Caterpillar", "🛡️ Chrysalis", "🦋 Butterfly", "🌸 Pollinator"],
+          "options": ["🌸 Pollinator", "🥚 Egg", "🦋 Butterfly", "🐛 Caterpillar", "🛡️ Chrysalis"],
+          "instruction": "Arrange butterfly life stages!"
+        },
+        "hint": "Life starts with an egg!",
+        "funFact": "Butterflies taste with their feet!",
+        "rewardBadge": { "badgeName": "Life Cycle Master", "xp": 75 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Learn about metamorphosis!",
+          "success": "🦁 You understand life cycles!"
+        }
+      },
+      {
+        "levelNumber": 15,
+        "title": "Canopy Adventure",
+        "miniStory": "Swing through the treetops!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 6,
+          "start": [0, 2],
+          "end": [5, 3],
+          "obstacles": [[1, 1], [2, 4], [3, 2], [4, 5]],
+          "instruction": "Navigate the canopy!"
+        },
+        "hint": "Swing from tree to tree!",
+        "funFact": "Canopy is home to 90% of jungle species!",
+        "rewardBadge": { "badgeName": "Canopy Master", "xp": 80 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Let's explore the treetops!",
+          "success": "🦁 You're a canopy expert!"
+        }
+      },
+      {
+        "levelNumber": 16,
+        "title": "Jungle Plants",
+        "miniStory": "Match plants to their uses!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🌿 Medicinal Plant", "right": "Heals Wounds" },
+            { "left": "🌺 Flower", "right": "Attracts Pollinators" },
+            { "left": "🌴 Palm Tree", "right": "Provides Shade" },
+            { "left": "🍌 Banana Plant", "right": "Gives Food" },
+            { "left": "🌱 Vine", "right": "Connects Trees" }
+          ],
+          "instruction": "Match plants to uses!"
+        },
+        "hint": "Plants have many uses!",
+        "funFact": "25% of medicines come from rainforest plants!",
+        "rewardBadge": { "badgeName": "Plant Expert", "xp": 85 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Learn about jungle plants!",
+          "success": "🦁 You're a botanist now!"
+        }
+      },
+      {
+        "levelNumber": 17,
+        "title": "Night Safari",
+        "miniStory": "Match nocturnal animals!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🦉 Owl", "right": "Silent Hunter" },
+            { "left": "🦇 Bat", "right": "Uses Echolocation" },
+            { "left": "🐆 Jaguar", "right": "Night Prowler" },
+            { "left": "🦎 Gecko", "right": "Wall Climber" },
+            { "left": "🐸 Tree Frog", "right": "Night Singer" }
+          ],
+          "instruction": "Match nocturnal animals!"
+        },
+        "hint": "These animals are active at night!",
+        "funFact": "Owls can rotate their heads 270 degrees!",
+        "rewardBadge": { "badgeName": "Night Explorer", "xp": 90 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Explore the jungle at night!",
+          "success": "🦁 You know the night creatures!"
+        }
+      },
+      {
+        "levelNumber": 18,
+        "title": "Conservation Steps",
+        "miniStory": "Arrange conservation actions!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["📚 Learn", "🌱 Plant Trees", "♻️ Reduce Waste", "🛡️ Protect Animals", "🌍 Save Planet"],
+          "options": ["🌍 Save Planet", "📚 Learn", "🛡️ Protect Animals", "🌱 Plant Trees", "♻️ Reduce Waste"],
+          "instruction": "Arrange conservation steps!"
+        },
+        "hint": "Start by learning!",
+        "funFact": "One tree can produce oxygen for 2 people!",
+        "rewardBadge": { "badgeName": "Conservation Hero", "xp": 95 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Learn how to protect nature!",
+          "success": "🦁 You're a conservation hero!"
+        }
+      },
+      {
+        "levelNumber": 19,
+        "title": "Final Expedition",
+        "miniStory": "Complete the ultimate jungle journey!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 7,
+          "start": [0, 0],
+          "end": [6, 6],
+          "obstacles": [[1, 2], [2, 1], [2, 5], [3, 3], [4, 2], [5, 4]],
+          "instruction": "Complete the expedition!"
+        },
+        "hint": "Use all your jungle skills!",
+        "funFact": "You've become a true jungle explorer!",
+        "rewardBadge": { "badgeName": "Expedition Master", "xp": 100 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 This is our final challenge!",
+          "success": "🦁 You did it! You're a master explorer!"
+        }
+      },
+      {
+        "levelNumber": 20,
+        "title": "Jungle Master Challenge",
+        "miniStory": "Prove you're the ultimate Jungle Master!",
+        "puzzleType": "Mixed",
+        "puzzleData": {
+          "phase1": {
+            "type": "Matching",
+            "pairs": [
+              { "left": "🌳 Rainforest", "right": "Earth's Lungs" },
+              { "left": "🦋 Biodiversity", "right": "Many Species" },
+              { "left": "🌍 Conservation", "right": "Protect Nature" }
+            ]
+          },
+          "phase2": {
+            "type": "PathBuilder",
+            "gridSize": 5,
+            "start": [0, 0],
+            "end": [4, 4],
+            "obstacles": [[1, 1], [2, 2], [3, 3]]
+          },
+          "phase3": {
+            "type": "Sequence",
+            "correctSequence": ["🌱 Seed", "🌿 Sprout", "🌳 Tree", "🦜 Animals", "👑 Jungle Master"],
+            "options": ["👑 Jungle Master", "🌱 Seed", "🦜 Animals", "🌿 Sprout", "🌳 Tree"]
+          },
+          "instruction": "Complete all phases to become Jungle Master!"
+        },
+        "hint": "Use everything you learned!",
+        "funFact": "You're now a guardian of the jungle!",
+        "rewardBadge": { "badgeName": "Jungle Master", "xp": 150 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Final test! Become Jungle Master!",
+          "success": "🦁 YOU DID IT! You're now Jungle Master! The jungle is proud of you!"
+        }
+      },
+      {
+        "levelNumber": 21,
+        "title": "Rainforest Canopy",
+        "miniStory": "Climb to the treetops! The canopy is where most jungle animals live.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🐒 Monkey", "right": "Swings on Vines" },
+            { "left": "🦜 Parrot", "right": "Flies Between Trees" },
+            { "left": "🦥 Sloth", "right": "Hangs Upside Down" },
+            { "left": "🐍 Tree Snake", "right": "Slithers on Branches" },
+            { "left": "🦎 Lizard", "right": "Climbs Tree Bark" },
+            { "left": "🦋 Butterfly", "right": "Drinks Flower Nectar" },
+            { "left": "🐦 Toucan", "right": "Eats Fruit" }
+          ],
+          "instruction": "Match each canopy animal to what it does!"
+        },
+        "hint": "The canopy is like a highway in the sky for jungle animals!",
+        "funFact": "The canopy is home to 70-90% of all jungle life!",
+        "rewardBadge": { "badgeName": "Canopy Explorer", "xp": 80 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Let's climb to the treetops!",
+          "success": "🦁 You've mastered the canopy level!"
+        },
+        "difficulty": 5
+      },
+      {
+        "levelNumber": 22,
+        "title": "Jungle Floor",
+        "miniStory": "Explore the dark forest floor where decomposers work their magic!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 6,
+          "start": [0, 0],
+          "end": [5, 5],
+          "obstacles": [[1, 1], [2, 3], [3, 2], [4, 4], [1, 4]],
+          "instruction": "Navigate through the jungle floor!"
+        },
+        "hint": "The forest floor is dark because the canopy blocks sunlight!",
+        "funFact": "Only 2% of sunlight reaches the jungle floor!",
+        "rewardBadge": { "badgeName": "Floor Explorer", "xp": 85 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Watch your step on the jungle floor!",
+          "success": "🦁 You navigated the dark floor perfectly!"
+        },
+        "difficulty": 6
+      },
+      {
+        "levelNumber": 23,
+        "title": "River Rapids",
+        "miniStory": "The jungle river is full of life! Learn about river animals.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🏔️ Mountain Rain", "💧 Small Stream", "🌊 River Forms", "🐊 Animals Arrive", "🌊 Rapids Flow", "🌊 Reaches Ocean"],
+          "options": ["🌊 Reaches Ocean", "🏔️ Mountain Rain", "🐊 Animals Arrive", "💧 Small Stream", "🌊 Rapids Flow", "🌊 River Forms"],
+          "instruction": "Show how a jungle river forms!"
+        },
+        "hint": "Rivers start in mountains and flow to the ocean!",
+        "funFact": "The Amazon River has more water than the next 7 largest rivers combined!",
+        "rewardBadge": { "badgeName": "River Guide", "xp": 90 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Let's follow the river's journey!",
+          "success": "🦁 You understand the river's path!"
+        },
+        "difficulty": 6
+      },
+      {
+        "levelNumber": 24,
+        "title": "Waterfall Cave",
+        "miniStory": "Behind the waterfall is a secret cave! Match animals that live near water.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🐊 Crocodile", "right": "River Hunter" },
+            { "left": "🦦 Otter", "right": "Playful Swimmer" },
+            { "left": "🐸 Poison Frog", "right": "Colorful & Toxic" },
+            { "left": "🦎 Water Dragon", "right": "Swims & Climbs" },
+            { "left": "🐢 Turtle", "right": "Slow & Steady" },
+            { "left": "🦈 Bull Shark", "right": "Swims in Rivers" },
+            { "left": "🐟 Piranha", "right": "Sharp Teeth" }
+          ],
+          "instruction": "Match each water animal to its trait!"
+        },
+        "hint": "Many dangerous animals live in jungle rivers!",
+        "funFact": "Bull sharks can swim in both salt and fresh water!",
+        "rewardBadge": { "badgeName": "Water Expert", "xp": 95 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Careful near the water - it's full of surprises!",
+          "success": "🦁 You know all the water creatures now!"
+        },
+        "difficulty": 6
+      },
+      {
+        "levelNumber": 25,
+        "title": "Monkey Kingdom",
+        "miniStory": "Meet the monkey troops! They have complex social lives.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 6,
+          "start": [0, 0],
+          "end": [5, 5],
+          "obstacles": [[1, 2], [2, 2], [3, 3], [4, 1], [2, 4], [4, 3]],
+          "instruction": "Swing through the trees like a monkey!"
+        },
+        "hint": "Monkeys live in groups called troops and communicate with sounds!",
+        "funFact": "Howler monkeys can be heard 3 miles away!",
+        "rewardBadge": { "badgeName": "Monkey Friend", "xp": 100 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Welcome to the monkey kingdom!",
+          "success": "🦁 The monkeys accept you as one of them!"
+        },
+        "difficulty": 7
+      },
+      {
+        "levelNumber": 26,
+        "title": "Gorilla Family",
+        "miniStory": "Meet the gentle giants! Gorillas are peaceful and intelligent.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🌅 Wake Up", "🍃 Eat Leaves", "🎮 Play Time", "🧘 Rest", "🍌 Eat More", "😴 Sleep"],
+          "options": ["😴 Sleep", "🌅 Wake Up", "🧘 Rest", "🍃 Eat Leaves", "🍌 Eat More", "🎮 Play Time"],
+          "instruction": "Show a gorilla's daily routine!"
+        },
+        "hint": "Gorillas spend most of their day eating and resting!",
+        "funFact": "Gorillas share 98% of their DNA with humans!",
+        "rewardBadge": { "badgeName": "Gorilla Guardian", "xp": 105 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Shh! Let's observe the gorilla family quietly!",
+          "success": "🦁 You understand gorilla behavior now!"
+        },
+        "difficulty": 7
+      },
+      {
+        "levelNumber": 27,
+        "title": "Chimpanzee Tools",
+        "miniStory": "Chimps are super smart! They use tools just like humans.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🪵 Stick", "right": "Fish for Termites" },
+            { "left": "🪨 Rock", "right": "Crack Nuts" },
+            { "left": "🍃 Leaf", "right": "Drink Water" },
+            { "left": "🌿 Branch", "right": "Reach Fruit" },
+            { "left": "🪵 Log", "right": "Make Drum" },
+            { "left": "🌱 Grass", "right": "Clean Teeth" },
+            { "left": "🥥 Coconut", "right": "Use as Cup" }
+          ],
+          "instruction": "Match each tool to how chimps use it!"
+        },
+        "hint": "Chimps are one of the few animals that use tools!",
+        "funFact": "Chimps can learn sign language and use over 300 signs!",
+        "rewardBadge": { "badgeName": "Chimp Scholar", "xp": 110 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Watch how smart these chimps are!",
+          "success": "🦁 You've learned from the masters of tool use!"
+        },
+        "difficulty": 7
+      },
+      {
+        "levelNumber": 28,
+        "title": "Orangutan Nest",
+        "miniStory": "Orangutans build a new nest every night! Navigate to their sleeping spot.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 7,
+          "start": [0, 0],
+          "end": [6, 6],
+          "obstacles": [[1, 1], [2, 3], [3, 2], [4, 4], [5, 1], [2, 5], [4, 5]],
+          "instruction": "Help the orangutan find the perfect tree for a nest!"
+        },
+        "hint": "Orangutans are the largest tree-dwelling animals!",
+        "funFact": "Orangutans build a new nest from branches every single night!",
+        "rewardBadge": { "badgeName": "Nest Builder", "xp": 115 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Let's help build a cozy nest!",
+          "success": "🦁 Perfect nest! The orangutan will sleep well!"
+        },
+        "difficulty": 7
+      },
+      {
+        "levelNumber": 29,
+        "title": "Lemur Leap",
+        "miniStory": "Lemurs are amazing jumpers! Learn about these unique primates.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["👀 Spot Tree", "🦵 Bend Legs", "💨 Push Off", "🦘 Leap High", "🤲 Grab Branch", "🎯 Land Safe"],
+          "options": ["🎯 Land Safe", "👀 Spot Tree", "🦘 Leap High", "🦵 Bend Legs", "🤲 Grab Branch", "💨 Push Off"],
+          "instruction": "Show how a lemur leaps between trees!"
+        },
+        "hint": "Lemurs can jump up to 25 feet between trees!",
+        "funFact": "Lemurs only live in Madagascar - nowhere else on Earth!",
+        "rewardBadge": { "badgeName": "Lemur Leaper", "xp": 120 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Watch these amazing acrobats!",
+          "success": "🦁 You've mastered the lemur leap!"
+        },
+        "difficulty": 8
+      },
+      {
+        "levelNumber": 30,
+        "title": "Sloth Slow Motion",
+        "miniStory": "Sloths are the slowest mammals! Match their unique adaptations.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🐌 Slow Speed", "right": "Save Energy" },
+            { "left": "🌿 Green Fur", "right": "Algae Camouflage" },
+            { "left": "💤 Sleep 15hrs", "right": "Rest & Digest" },
+            { "left": "🪝 Long Claws", "right": "Hang on Branches" },
+            { "left": "🦥 Upside Down", "right": "Live in Trees" },
+            { "left": "🍃 Eat Leaves", "right": "Low Energy Food" },
+            { "left": "😊 Always Smile", "right": "Face Shape" }
+          ],
+          "instruction": "Match each sloth trait to why it's useful!"
+        },
+        "hint": "Sloths are slow because they save energy!",
+        "funFact": "Sloths only poop once a week and lose 30% of their body weight!",
+        "rewardBadge": { "badgeName": "Sloth Expert", "xp": 125 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Let's learn about the slowest animal!",
+          "success": "🦁 You understand why sloths are so chill!"
+        },
+        "difficulty": 8
+      },
+      {
+        "levelNumber": 31,
+        "title": "Jaguar Hunt",
+        "miniStory": "The jaguar is the jungle's top predator! Learn about this powerful hunter.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["👀 Spot Prey", "🐾 Stalk Silently", "💪 Get Close", "🦘 Pounce Fast", "🦷 Powerful Bite", "🍖 Catch Food"],
+          "options": ["🍖 Catch Food", "👀 Spot Prey", "🦘 Pounce Fast", "🐾 Stalk Silently", "🦷 Powerful Bite", "💪 Get Close"],
+          "instruction": "Show how a jaguar hunts!"
+        },
+        "hint": "Jaguars are ambush predators with the strongest bite of any big cat!",
+        "funFact": "Jaguars can bite through turtle shells and even crocodile skulls!",
+        "rewardBadge": { "badgeName": "Jaguar Tracker", "xp": 130 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Let's learn from the jungle's apex predator!",
+          "success": "🦁 You understand the jaguar's hunting mastery!"
+        },
+        "difficulty": 8
+      },
+      {
+        "levelNumber": 32,
+        "title": "Puma Prowl",
+        "miniStory": "Pumas are stealthy mountain cats! Navigate through their territory.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 8,
+          "start": [0, 0],
+          "end": [7, 7],
+          "obstacles": [[1, 2], [2, 2], [3, 4], [4, 3], [5, 5], [6, 2], [3, 6], [5, 1]],
+          "instruction": "Follow the puma's silent path!"
+        },
+        "hint": "Pumas can jump 18 feet high and 40 feet forward!",
+        "funFact": "Pumas have over 40 different names including cougar, mountain lion, and panther!",
+        "rewardBadge": { "badgeName": "Puma Stalker", "xp": 135 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Shh! Let's track the silent puma!",
+          "success": "🦁 You moved as silently as a puma!"
+        },
+        "difficulty": 9
+      },
+      {
+        "levelNumber": 33,
+        "title": "Ocelot Stealth",
+        "miniStory": "Ocelots are beautiful spotted cats! Match their hunting adaptations.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🎨 Spotted Coat", "right": "Perfect Camouflage" },
+            { "left": "👁️ Night Vision", "right": "Hunt in Dark" },
+            { "left": "🦵 Strong Legs", "right": "Climb Trees" },
+            { "left": "👃 Sharp Smell", "right": "Track Prey" },
+            { "left": "👂 Big Ears", "right": "Hear Everything" },
+            { "left": "🪝 Sharp Claws", "right": "Catch Animals" },
+            { "left": "🦷 Fangs", "right": "Kill Quickly" }
+          ],
+          "instruction": "Match each ocelot feature to its use!"
+        },
+        "hint": "Ocelots are expert climbers and swimmers!",
+        "funFact": "Ocelots can rotate their ankles to climb down trees headfirst!",
+        "rewardBadge": { "badgeName": "Ocelot Observer", "xp": 140 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Meet the beautiful ocelot!",
+          "success": "🦁 You know all about these spotted hunters!"
+        },
+        "difficulty": 9
+      },
+      {
+        "levelNumber": 34,
+        "title": "Anaconda River",
+        "miniStory": "The anaconda is the world's heaviest snake! Learn about this river giant.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🌊 Wait in Water", "👀 Spot Animal", "🏊 Swim Close", "🦘 Strike Fast", "🌀 Coil Around", "💪 Squeeze Tight"],
+          "options": ["💪 Squeeze Tight", "🌊 Wait in Water", "🌀 Coil Around", "👀 Spot Animal", "🦘 Strike Fast", "🏊 Swim Close"],
+          "instruction": "Show how an anaconda hunts!"
+        },
+        "hint": "Anacondas are constrictors - they squeeze their prey!",
+        "funFact": "Green anacondas can weigh over 500 pounds and grow 30 feet long!",
+        "rewardBadge": { "badgeName": "Snake Charmer", "xp": 145 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Careful! The anaconda is a powerful predator!",
+          "success": "🦁 You understand the anaconda's strength!"
+        },
+        "difficulty": 9
+      },
+      {
+        "levelNumber": 35,
+        "title": "Python Squeeze",
+        "miniStory": "Pythons are master constrictors! Navigate through python territory.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 8,
+          "start": [0, 0],
+          "end": [7, 7],
+          "obstacles": [[1, 1], [2, 4], [3, 2], [4, 5], [5, 3], [6, 6], [2, 6], [5, 1]],
+          "instruction": "Slither through the jungle like a python!"
+        },
+        "hint": "Pythons can sense heat from warm-blooded animals!",
+        "funFact": "Reticulated pythons can grow over 20 feet and swallow deer whole!",
+        "rewardBadge": { "badgeName": "Python Master", "xp": 150 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Let's follow the python's path!",
+          "success": "🦁 You moved like a python!"
+        },
+        "difficulty": 9
+      },
+      {
+        "levelNumber": 36,
+        "title": "Cobra Strike",
+        "miniStory": "King cobras are the longest venomous snakes! Match their deadly features.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "☠️ Venom", "right": "Deadly Poison" },
+            { "left": "🎭 Hood", "right": "Warning Display" },
+            { "left": "👁️ Good Eyes", "right": "Spot Prey Far" },
+            { "left": "👅 Forked Tongue", "right": "Smell the Air" },
+            { "left": "🦷 Fangs", "right": "Inject Venom" },
+            { "left": "📏 18 Feet", "right": "Longest Venomous" },
+            { "left": "🥚 Nest Builder", "right": "Protect Eggs" }
+          ],
+          "instruction": "Match each cobra feature!"
+        },
+        "hint": "King cobras can stand up to 6 feet tall!",
+        "funFact": "King cobras are the only snakes that build nests for their eggs!",
+        "rewardBadge": { "badgeName": "Cobra Expert", "xp": 155 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Respect the king cobra - it's deadly but amazing!",
+          "success": "🦁 You know all about the king of snakes!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 37,
+        "title": "Viper Venom",
+        "miniStory": "Pit vipers have heat-sensing pits! Learn about these venomous hunters.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🌡️ Sense Heat", "👀 Locate Prey", "🐍 Get Position", "⚡ Strike Fast", "💉 Inject Venom", "⏰ Wait for Death"],
+          "options": ["⏰ Wait for Death", "🌡️ Sense Heat", "💉 Inject Venom", "👀 Locate Prey", "⚡ Strike Fast", "🐍 Get Position"],
+          "instruction": "Show how a pit viper hunts!"
+        },
+        "hint": "Pit vipers can sense heat from warm-blooded animals in total darkness!",
+        "funFact": "Pit vipers can strike in 0.2 seconds - faster than you can blink!",
+        "rewardBadge": { "badgeName": "Viper Specialist", "xp": 160 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 These snakes have a sixth sense!",
+          "success": "🦁 You understand viper hunting technology!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 38,
+        "title": "Tree Frog Colors",
+        "miniStory": "Poison dart frogs are the most colorful animals! Navigate through their territory.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 9,
+          "start": [0, 0],
+          "end": [8, 8],
+          "obstacles": [[1, 2], [2, 4], [3, 1], [4, 5], [5, 3], [6, 7], [7, 2], [3, 6], [5, 8]],
+          "instruction": "Hop through the colorful frog habitat!"
+        },
+        "hint": "Bright colors warn predators that these frogs are poisonous!",
+        "funFact": "One golden poison dart frog has enough poison to kill 10 people!",
+        "rewardBadge": { "badgeName": "Frog Friend", "xp": 165 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Beautiful but deadly - don't touch!",
+          "success": "🦁 You hopped through frog paradise!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 39,
+        "title": "Poison Dart Frog",
+        "miniStory": "Learn why these tiny frogs are so poisonous! Match their survival strategies.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🎨 Bright Colors", "right": "Warning Signal" },
+            { "left": "☠️ Skin Poison", "right": "Defense System" },
+            { "left": "🐜 Eat Ants", "right": "Get Poison" },
+            { "left": "👶 Carry Babies", "right": "On Their Back" },
+            { "left": "💧 Need Water", "right": "Keep Skin Wet" },
+            { "left": "🌳 Live in Trees", "right": "Safe from Ground" },
+            { "left": "📏 Tiny Size", "right": "1-2 Inches" }
+          ],
+          "instruction": "Match each frog adaptation!"
+        },
+        "hint": "Poison dart frogs get their poison from the ants they eat!",
+        "funFact": "In captivity, poison dart frogs lose their poison because they don't eat toxic ants!",
+        "rewardBadge": { "badgeName": "Poison Expert", "xp": 170 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 These tiny frogs pack a deadly punch!",
+          "success": "🦁 You're now a poison dart frog expert!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 40,
+        "title": "Chameleon Change",
+        "miniStory": "Chameleons can change color! Learn about these amazing lizards.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["😊 Feel Emotion", "🧠 Brain Signal", "💎 Crystal Cells", "🌈 Change Color", "🎭 New Pattern", "🦎 Perfect Camouflage"],
+          "options": ["🦎 Perfect Camouflage", "😊 Feel Emotion", "🎭 New Pattern", "🧠 Brain Signal", "🌈 Change Color", "💎 Crystal Cells"],
+          "instruction": "Show how chameleons change color!"
+        },
+        "hint": "Chameleons change color based on mood, temperature, and communication!",
+        "funFact": "Chameleons change color using special crystal cells in their skin!",
+        "rewardBadge": { "badgeName": "Chameleon Master", "xp": 175 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Watch this amazing color-changing master!",
+          "success": "🦁 Incredible! You've mastered the jungle! You're a true Jungle Master!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 41,
+        "title": "Toucan Beak",
+        "miniStory": "Toucans have huge colorful beaks! Learn why they're so big.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🌈 Colorful", "right": "Attract Mates" },
+            { "left": "🍇 Reach Fruit", "right": "Get Food Far Away" },
+            { "left": "🌡️ Cool Down", "right": "Regulate Temperature" },
+            { "left": "🦷 Serrated Edge", "right": "Peel Fruit" },
+            { "left": "🪶 Lightweight", "right": "Hollow Inside" },
+            { "left": "⚔️ Defend", "right": "Fight Rivals" },
+            { "left": "🎨 Unique Pattern", "right": "Identify Species" }
+          ],
+          "instruction": "Match each beak feature to its purpose!"
+        },
+        "hint": "Toucan beaks are huge but surprisingly light!",
+        "funFact": "A toucan's beak can be one-third of its total body length!",
+        "rewardBadge": { "badgeName": "Toucan Expert", "xp": 180 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Look at that amazing beak!",
+          "success": "🦁 You understand toucan beaks now!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 42,
+        "title": "Macaw Colors",
+        "miniStory": "Macaws are the most colorful parrots! Navigate through their rainbow world.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 10,
+          "start": [0, 0],
+          "end": [9, 9],
+          "obstacles": [[1, 2], [2, 5], [3, 1], [4, 7], [5, 4], [6, 8], [7, 2], [8, 6], [3, 8], [6, 3]],
+          "instruction": "Fly through the macaw habitat!"
+        },
+        "hint": "Macaws mate for life and can live 50+ years!",
+        "funFact": "Macaws eat clay from riverbanks to neutralize toxins in their food!",
+        "rewardBadge": { "badgeName": "Macaw Friend", "xp": 185 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 These are the most beautiful birds in the jungle!",
+          "success": "🦁 You flew with the macaws!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 43,
+        "title": "Parrot Talk",
+        "miniStory": "Parrots can mimic human speech! Learn about their intelligence.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["👂 Hear Sound", "🧠 Remember It", "🗣️ Practice", "🎵 Perfect Tone", "💬 Say Word", "🎉 Communicate"],
+          "options": ["🎉 Communicate", "👂 Hear Sound", "💬 Say Word", "🧠 Remember It", "🎵 Perfect Tone", "🗣️ Practice"],
+          "instruction": "Show how parrots learn to talk!"
+        },
+        "hint": "Parrots don't just mimic - they can understand meanings!",
+        "funFact": "Alex the African Grey parrot had the intelligence of a 5-year-old child!",
+        "rewardBadge": { "badgeName": "Parrot Linguist", "xp": 190 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Let's learn how parrots talk!",
+          "success": "🦁 You understand parrot intelligence!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 44,
+        "title": "Harpy Eagle",
+        "miniStory": "The harpy eagle is the jungle's top aerial predator! Match hunting features.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "👁️ Sharp Eyes", "right": "Spot Prey Far" },
+            { "left": "🪝 Huge Talons", "right": "Catch Monkeys" },
+            { "left": "💪 Strong Grip", "right": "Crush Bones" },
+            { "left": "🦅 Powerful Wings", "right": "Fly Through Trees" },
+            { "left": "🎯 Silent Flight", "right": "Surprise Attack" },
+            { "left": "🏋️ Heavy", "right": "20 Pounds" },
+            { "left": "👑 Apex Predator", "right": "Top of Food Chain" }
+          ],
+          "instruction": "Match each harpy eagle feature!"
+        },
+        "hint": "Harpy eagles can snatch monkeys right out of trees!",
+        "funFact": "Harpy eagle talons are longer than grizzly bear claws!",
+        "rewardBadge": { "badgeName": "Eagle Watcher", "xp": 195 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 The harpy eagle is the king of the sky!",
+          "success": "🦁 You know the jungle's top predator!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 45,
+        "title": "Condor Flight",
+        "miniStory": "Condors soar on thermal currents! Navigate through the sky.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 10,
+          "start": [0, 0],
+          "end": [9, 9],
+          "obstacles": [[1, 3], [2, 6], [3, 2], [4, 8], [5, 4], [6, 9], [7, 1], [8, 7], [3, 9], [6, 5]],
+          "instruction": "Soar like a condor on thermal currents!"
+        },
+        "hint": "Condors can fly for hours without flapping their wings!",
+        "funFact": "Andean condors have a 10-foot wingspan - the largest of any land bird!",
+        "rewardBadge": { "badgeName": "Condor Pilot", "xp": 200 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Let's soar with the condors!",
+          "success": "🦁 You flew like a condor!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 46,
+        "title": "Hummingbird Speed",
+        "miniStory": "Hummingbirds are the fastest small birds! Match their amazing abilities.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "⚡ Wing Speed", "right": "80 Beats/Second" },
+            { "left": "🔄 Hover", "right": "Stay in One Spot" },
+            { "left": "⬅️ Fly Backward", "right": "Only Bird That Can" },
+            { "left": "💓 Fast Heart", "right": "1,200 Beats/Minute" },
+            { "left": "🍯 Nectar", "right": "Main Food" },
+            { "left": "🌺 Pollinate", "right": "Help Flowers" },
+            { "left": "📏 Tiny", "right": "Smallest Bird" }
+          ],
+          "instruction": "Match each hummingbird feature!"
+        },
+        "hint": "Hummingbirds must eat every 10 minutes to survive!",
+        "funFact": "A hummingbird's heart beats 1,200 times per minute!",
+        "rewardBadge": { "badgeName": "Hummingbird Watcher", "xp": 205 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 These tiny birds are incredible!",
+          "success": "🦁 You understand hummingbird superpowers!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 47,
+        "title": "Butterfly Migration",
+        "miniStory": "Monarch butterflies migrate thousands of miles! Show their journey.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🥚 Egg in Mexico", "🐛 Caterpillar Grows", "🦋 Butterfly Emerges", "⬆️ Fly North", "🌸 Lay Eggs", "⬇️ Return South"],
+          "options": ["⬇️ Return South", "🥚 Egg in Mexico", "🌸 Lay Eggs", "🐛 Caterpillar Grows", "⬆️ Fly North", "🦋 Butterfly Emerges"],
+          "instruction": "Show the monarch butterfly migration!"
+        },
+        "hint": "Monarch butterflies migrate up to 3,000 miles!",
+        "funFact": "No single butterfly completes the whole migration - it takes 4 generations!",
+        "rewardBadge": { "badgeName": "Migration Master", "xp": 210 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 These delicate butterflies are tough travelers!",
+          "success": "🦁 You followed the butterfly migration!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 48,
+        "title": "Moth Camouflage",
+        "miniStory": "Moths are masters of disguise! Navigate through their camouflaged world.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 10,
+          "start": [0, 0],
+          "end": [9, 9],
+          "obstacles": [[1, 2], [2, 6], [3, 3], [4, 8], [5, 5], [6, 9], [7, 2], [8, 7], [4, 9], [7, 5]],
+          "instruction": "Find the hidden moths!"
+        },
+        "hint": "Some moths look exactly like tree bark, leaves, or even bird droppings!",
+        "funFact": "The Atlas moth is so big it's often mistaken for a bird!",
+        "rewardBadge": { "badgeName": "Camouflage Expert", "xp": 215 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Can you spot the hidden moths?",
+          "success": "🦁 You found all the camouflaged moths!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 49,
+        "title": "Beetle Armor",
+        "miniStory": "Beetles have the toughest exoskeletons! Match beetle defenses.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🛡️ Hard Shell", "right": "Armor Protection" },
+            { "left": "🪲 Horns", "right": "Fight Rivals" },
+            { "left": "💨 Spray Acid", "right": "Chemical Defense" },
+            { "left": "🎨 Warning Colors", "right": "Look Dangerous" },
+            { "left": "💪 Super Strong", "right": "Lift 850x Weight" },
+            { "left": "🦟 Bite", "right": "Powerful Jaws" },
+            { "left": "🏃 Run Fast", "right": "Escape Predators" }
+          ],
+          "instruction": "Match each beetle defense!"
+        },
+        "hint": "Beetles are the most diverse group of animals on Earth!",
+        "funFact": "Dung beetles can pull 1,141 times their own body weight!",
+        "rewardBadge": { "badgeName": "Beetle Specialist", "xp": 220 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Beetles are tiny tanks!",
+          "success": "🦁 You know all about beetle armor!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 50,
+        "title": "Ant Colony",
+        "miniStory": "Ant colonies are like cities! Show how an ant colony works.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["👑 Queen Lays Eggs", "🥚 Eggs Hatch", "👶 Workers Born", "🏗️ Build Nest", "🍃 Gather Food", "🏙️ Colony Grows"],
+          "options": ["🏙️ Colony Grows", "👑 Queen Lays Eggs", "🍃 Gather Food", "🥚 Eggs Hatch", "🏗️ Build Nest", "👶 Workers Born"],
+          "instruction": "Show how an ant colony develops!"
+        },
+        "hint": "An ant colony can have millions of ants working together!",
+        "funFact": "Leafcutter ants farm fungus underground - they're farmers!",
+        "rewardBadge": { "badgeName": "Colony Master", "xp": 225 },
+        "characterDialogue": {
+          "character": "Ranger Leo",
+          "intro": "🦁 Ant colonies are amazing societies!",
+          "success": "🦁 Incredible! You've truly mastered the jungle! You're the ultimate Jungle Master!"
+        },
+        "difficulty": 10
+      }
+    ],
+    "packRewards": {
+      "completionBadge": {
+        "badgeName": "Jungle Master",
+        "badgeDescription": "You've conquered the entire jungle!",
+        "xp": 200
+      },
+      "totalXP": 5880
+    }
+  }
+}

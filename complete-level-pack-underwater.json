@@ -1,0 +1,465 @@
+{
+  "levelPack": {
+    "topic": "Underwater Adventure",
+    "packTitle": "Underwater Ocean Adventure",
+    "packDescription": "Dive deep with Marina the Mermaid and explore the amazing ocean!",
+    "totalLevels": 20,
+    "estimatedTime": "60-80 minutes",
+    "ageRange": "5-8 years",
+    "levels": [
+      {
+        "levelNumber": 1,
+        "title": "Meet the Ocean Friends",
+        "miniStory": "Marina wants to introduce you to her ocean friends! Can you match them?",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🐠 Fish", "right": "Swims" },
+            { "left": "🦀 Crab", "right": "Walks Sideways" },
+            { "left": "🐙 Octopus", "right": "Has 8 Arms" },
+            { "left": "🐬 Dolphin", "right": "Jumps High" },
+            { "left": "🦈 Shark", "right": "Sharp Teeth" },
+            { "left": "🐢 Turtle", "right": "Has Shell" }
+          ],
+          "instruction": "Match each creature to what makes it special!"
+        },
+        "hint": "Think about how each animal moves or looks!",
+        "funFact": "Octopuses have three hearts!",
+        "rewardBadge": { "badgeName": "Ocean Explorer", "xp": 10 },
+        "characterDialogue": {
+          "character": "Marina",
+          "intro": "🧜‍♀️ Welcome! Let's meet my ocean friends!",
+          "success": "🧜‍♀️ Great job! You're learning fast!"
+        },
+        "difficulty": 1
+      },
+      {
+        "levelNumber": 2,
+        "title": "Coral Garden Path",
+        "miniStory": "Help Marina swim through the colorful coral garden!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 3,
+          "start": [0, 0],
+          "end": [2, 2],
+          "obstacles": [[1, 1]],
+          "instruction": "Find the path through the corals!"
+        },
+        "hint": "Go around the coral in the middle!",
+        "funFact": "Corals are actually tiny animals, not plants!",
+        "rewardBadge": { "badgeName": "Coral Navigator", "xp": 15 },
+        "characterDialogue": {
+          "character": "Marina",
+          "intro": "🧜‍♀️ Let's swim through my garden!",
+          "success": "🧜‍♀️ You're a natural swimmer!"
+        },
+        "difficulty": 1
+      },
+      {
+        "levelNumber": 3,
+        "title": "Ocean Colors",
+        "miniStory": "The ocean has so many beautiful colors! Can you arrange them?",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🔵 Blue Water", "🟢 Green Seaweed", "🟡 Yellow Fish"],
+          "options": ["🟡 Yellow Fish", "🔵 Blue Water", "🟢 Green Seaweed"],
+          "instruction": "Put the colors in order from water to fish!"
+        },
+        "hint": "Start with what you see most in the ocean!",
+        "funFact": "The ocean looks blue because water absorbs red light!",
+        "rewardBadge": { "badgeName": "Color Master", "xp": 20 },
+        "characterDialogue": {
+          "character": "Marina",
+          "intro": "🧜‍♀️ Look at all these pretty colors!",
+          "success": "🧜‍♀️ Beautiful! You have a good eye!"
+        },
+        "difficulty": 2
+      },
+      {
+        "levelNumber": 4,
+        "title": "Sea Creature Homes",
+        "miniStory": "Every sea creature has a special home. Can you match them?",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🐠 Clownfish", "right": "🪸 Anemone" },
+            { "left": "🦀 Crab", "right": "🏖️ Beach" },
+            { "left": "🐢 Turtle", "right": "🌊 Ocean" },
+            { "left": "🦈 Shark", "right": "🌊 Deep Sea" }
+          ],
+          "instruction": "Match each animal to where it lives!"
+        },
+        "hint": "Clownfish love to hide in anemones!",
+        "funFact": "Clownfish are protected by anemone's stinging tentacles!",
+        "rewardBadge": { "badgeName": "Home Finder", "xp": 25 },
+        "characterDialogue": {
+          "character": "Marina",
+          "intro": "🧜‍♀️ Let's find where everyone lives!",
+          "success": "🧜‍♀️ Perfect! You know all the homes!"
+        },
+        "difficulty": 2
+      },
+      {
+        "levelNumber": 5,
+        "title": "Treasure Hunt Path",
+        "miniStory": "There's treasure hidden in the reef! Help Marina find it!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 4,
+          "start": [0, 0],
+          "end": [3, 3],
+          "obstacles": [[1, 1], [2, 2]],
+          "instruction": "Navigate to the treasure chest!"
+        },
+        "hint": "Try going around the obstacles!",
+        "funFact": "Real treasure has been found in shipwrecks underwater!",
+        "rewardBadge": { "badgeName": "Treasure Hunter", "xp": 30 },
+        "characterDialogue": {
+          "character": "Marina",
+          "intro": "🧜‍♀️ Let's find the hidden treasure!",
+          "success": "🧜‍♀️ You found it! Amazing!"
+        },
+        "difficulty": 3
+      },
+      {
+        "levelNumber": 6,
+        "title": "Ocean Food Chain",
+        "miniStory": "In the ocean, everyone eats something! Can you put them in order?",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🌿 Plankton", "🦐 Shrimp", "🐟 Fish", "🦈 Shark"],
+          "options": ["🦈 Shark", "🌿 Plankton", "🐟 Fish", "🦐 Shrimp"],
+          "instruction": "Arrange from smallest to biggest eater!"
+        },
+        "hint": "Start with the tiniest creatures!",
+        "funFact": "Plankton are so small you need a microscope to see most of them!",
+        "rewardBadge": { "badgeName": "Food Chain Expert", "xp": 35 },
+        "characterDialogue": {
+          "character": "Marina",
+          "intro": "🧜‍♀️ Let's learn who eats what!",
+          "success": "🧜‍♀️ You understand the ocean food chain!"
+        },
+        "difficulty": 3
+      },
+      {
+        "levelNumber": 7,
+        "title": "Dolphin Pod",
+        "miniStory": "Dolphins travel in groups called pods! Match the dolphins!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🐬 Baby Dolphin", "right": "🐬 Mother" },
+            { "left": "🐬 Young Dolphin", "right": "🐬 Father" },
+            { "left": "🐬 Dolphin 1", "right": "🐬 Friend 1" },
+            { "left": "🐬 Dolphin 2", "right": "🐬 Friend 2" },
+            { "left": "🐬 Elder", "right": "🐬 Leader" }
+          ],
+          "instruction": "Match the dolphin families!"
+        },
+        "hint": "Dolphins live in family groups!",
+        "funFact": "Dolphins have names for each other using special whistles!",
+        "rewardBadge": { "badgeName": "Dolphin Friend", "xp": 40 },
+        "characterDialogue": {
+          "character": "Splash",
+          "intro": "🐬 Hi! Help me find my pod!",
+          "success": "🐬 Thank you! My family is together!"
+        },
+        "difficulty": 4
+      },
+      {
+        "levelNumber": 8,
+        "title": "Kelp Forest Maze",
+        "miniStory": "The kelp forest is like an underwater jungle! Find your way through!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 4,
+          "start": [0, 0],
+          "end": [3, 3],
+          "obstacles": [[1, 0], [1, 2], [2, 1]],
+          "instruction": "Navigate through the tall kelp!"
+        },
+        "hint": "Kelp grows very tall - swim around it!",
+        "funFact": "Kelp can grow up to 2 feet per day!",
+        "rewardBadge": { "badgeName": "Kelp Explorer", "xp": 45 },
+        "characterDialogue": {
+          "character": "Marina",
+          "intro": "🧜‍♀️ The kelp forest is beautiful but tricky!",
+          "success": "🧜‍♀️ You made it through! Great navigation!"
+        },
+        "difficulty": 4
+      },
+      {
+        "levelNumber": 9,
+        "title": "Ocean Layers",
+        "miniStory": "The ocean has different layers from top to bottom!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["☀️ Sunlight Zone", "🌅 Twilight Zone", "🌑 Midnight Zone", "⚫ Abyss"],
+          "options": ["🌑 Midnight Zone", "☀️ Sunlight Zone", "⚫ Abyss", "🌅 Twilight Zone"],
+          "instruction": "Arrange ocean zones from surface to deep!"
+        },
+        "hint": "Start where the sun shines brightest!",
+        "funFact": "Only 5% of the ocean has been explored by humans!",
+        "rewardBadge": { "badgeName": "Deep Sea Scholar", "xp": 50 },
+        "characterDialogue": {
+          "character": "Marina",
+          "intro": "🧜‍♀️ Let's explore the ocean depths!",
+          "success": "🧜‍♀️ You know the ocean layers perfectly!"
+        },
+        "difficulty": 5
+      },
+      {
+        "levelNumber": 10,
+        "title": "Sea Creature Sounds",
+        "miniStory": "Ocean animals make amazing sounds! Can you match them?",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🐬 Dolphin", "right": "🔊 Click-Click" },
+            { "left": "🐋 Whale", "right": "🔊 Whooo" },
+            { "left": "🦭 Seal", "right": "🔊 Bark-Bark" },
+            { "left": "🦈 Shark", "right": "🔊 Silent" },
+            { "left": "🦀 Crab", "right": "🔊 Snap-Snap" }
+          ],
+          "instruction": "Match animals to their sounds!"
+        },
+        "hint": "Dolphins make clicking sounds!",
+        "funFact": "Whales can hear each other from 1000 miles away!",
+        "rewardBadge": { "badgeName": "Sound Detective", "xp": 55 },
+        "characterDialogue": {
+          "character": "Marina",
+          "intro": "🧜‍♀️ Listen to the ocean symphony!",
+          "success": "🧜‍♀️ You have great ears!"
+        },
+        "difficulty": 5
+      },
+      {
+        "levelNumber": 11,
+        "title": "Shipwreck Adventure",
+        "miniStory": "An old shipwreck lies on the ocean floor! Explore it carefully!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 5,
+          "start": [0, 0],
+          "end": [4, 4],
+          "obstacles": [[1, 1], [2, 2], [3, 1], [1, 3]],
+          "instruction": "Navigate through the shipwreck!"
+        },
+        "hint": "Watch out for broken parts of the ship!",
+        "funFact": "There are over 3 million shipwrecks in the ocean!",
+        "rewardBadge": { "badgeName": "Wreck Explorer", "xp": 60 },
+        "characterDialogue": {
+          "character": "Captain Crabby",
+          "intro": "🦀 Ahoy! Let's explore this old ship!",
+          "success": "🦀 Arr! You're a brave explorer!"
+        },
+        "difficulty": 6
+      },
+      {
+        "levelNumber": 12,
+        "title": "Coral Types",
+        "miniStory": "There are many types of coral! Can you match them?",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🪸 Brain Coral", "right": "🧠 Looks Like Brain" },
+            { "left": "🪸 Staghorn", "right": "🦌 Like Antlers" },
+            { "left": "🪸 Table Coral", "right": "🪑 Flat Top" },
+            { "left": "🪸 Fan Coral", "right": "🪭 Waves Like Fan" },
+            { "left": "🪸 Pillar Coral", "right": "🏛️ Tall Columns" }
+          ],
+          "instruction": "Match coral types to their shapes!"
+        },
+        "hint": "Brain coral really looks like a brain!",
+        "funFact": "Corals are animals, not plants!",
+        "rewardBadge": { "badgeName": "Coral Expert", "xp": 65 },
+        "characterDialogue": {
+          "character": "Professor Pufferfish",
+          "intro": "🐡 Let's study different corals!",
+          "success": "🐡 Excellent! You're a coral scientist!"
+        },
+        "difficulty": 6
+      },
+      {
+        "levelNumber": 13,
+        "title": "Whale Migration",
+        "miniStory": "Whales travel thousands of miles! Put their journey in order!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🌊 Cold Waters", "🐋 Feeding Time", "🗺️ Long Journey", "☀️ Warm Waters", "🐋 Baby Whales"],
+          "options": ["🐋 Baby Whales", "🌊 Cold Waters", "☀️ Warm Waters", "🐋 Feeding Time", "🗺️ Long Journey"],
+          "instruction": "Arrange the whale migration journey!"
+        },
+        "hint": "Whales feed in cold waters first!",
+        "funFact": "Whales migrate up to 12,000 miles each year!",
+        "rewardBadge": { "badgeName": "Migration Master", "xp": 70 },
+        "characterDialogue": {
+          "character": "Marina",
+          "intro": "🧜‍♀️ Let's follow the whales!",
+          "success": "🧜‍♀️ You understand whale migration!"
+        },
+        "difficulty": 7
+      },
+      {
+        "levelNumber": 14,
+        "title": "Deep Sea Challenge",
+        "miniStory": "The deep sea is dark and mysterious! Can you navigate it?",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 5,
+          "start": [0, 0],
+          "end": [4, 4],
+          "obstacles": [[1, 2], [2, 1], [2, 3], [3, 2], [1, 4]],
+          "instruction": "Find your way through the deep sea!"
+        },
+        "hint": "Take your time and plan your route!",
+        "funFact": "The deepest part of the ocean is 36,000 feet deep!",
+        "rewardBadge": { "badgeName": "Deep Diver", "xp": 75 },
+        "characterDialogue": {
+          "character": "Marina",
+          "intro": "🧜‍♀️ The deep sea is challenging!",
+          "success": "🧜‍♀️ Wow! You're fearless!"
+        },
+        "difficulty": 7
+      },
+      {
+        "levelNumber": 15,
+        "title": "Bioluminescent Creatures",
+        "miniStory": "Some deep sea creatures glow in the dark! Match them!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🦑 Firefly Squid", "right": "✨ Blue Glow" },
+            { "left": "🐟 Anglerfish", "right": "💡 Light Lure" },
+            { "left": "🪼 Jellyfish", "right": "🌟 Green Glow" },
+            { "left": "🦐 Krill", "right": "⭐ Sparkle" },
+            { "left": "🐠 Lanternfish", "right": "🔦 Belly Lights" }
+          ],
+          "instruction": "Match glowing creatures to their lights!"
+        },
+        "hint": "Many deep sea creatures make their own light!",
+        "funFact": "90% of deep sea creatures can glow!",
+        "rewardBadge": { "badgeName": "Light Master", "xp": 80 },
+        "characterDialogue": {
+          "character": "Professor Pufferfish",
+          "intro": "🐡 Look at these glowing creatures!",
+          "success": "🐡 Amazing! You know bioluminescence!"
+        },
+        "difficulty": 8
+      },
+      {
+        "levelNumber": 16,
+        "title": "Octopus Intelligence",
+        "miniStory": "Octopuses are super smart! Match their amazing abilities!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🐙 Camouflage", "right": "🎨 Change Color" },
+            { "left": "🐙 Problem Solving", "right": "🧩 Open Jars" },
+            { "left": "🐙 Escape Artist", "right": "🚪 Squeeze Through" },
+            { "left": "🐙 Tool Use", "right": "🔧 Use Objects" },
+            { "left": "🐙 Memory", "right": "🧠 Remember Faces" }
+          ],
+          "instruction": "Match octopus abilities!"
+        },
+        "hint": "Octopuses have 9 brains!",
+        "funFact": "Octopuses can taste with their arms!",
+        "rewardBadge": { "badgeName": "Octopus Scholar", "xp": 85 },
+        "characterDialogue": {
+          "character": "Professor Pufferfish",
+          "intro": "🐡 Octopuses are incredibly smart!",
+          "success": "🐡 You appreciate their intelligence!"
+        },
+        "difficulty": 8
+      },
+      {
+        "levelNumber": 17,
+        "title": "Ocean Conservation",
+        "miniStory": "We need to protect our oceans! Put these steps in order!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["♻️ Reduce Plastic", "🗑️ Clean Beaches", "🐠 Protect Reefs", "🌊 Save Habitats", "🌍 Healthy Ocean"],
+          "options": ["🌍 Healthy Ocean", "♻️ Reduce Plastic", "🐠 Protect Reefs", "🗑️ Clean Beaches", "🌊 Save Habitats"],
+          "instruction": "Arrange ocean protection steps!"
+        },
+        "hint": "Start by reducing plastic use!",
+        "funFact": "8 million tons of plastic enter oceans yearly!",
+        "rewardBadge": { "badgeName": "Ocean Protector", "xp": 90 },
+        "characterDialogue": {
+          "character": "Marina",
+          "intro": "🧜‍♀️ Let's learn to protect our ocean!",
+          "success": "🧜‍♀️ You're an ocean hero!"
+        },
+        "difficulty": 9
+      },
+      {
+        "levelNumber": 18,
+        "title": "Ultimate Ocean Maze",
+        "miniStory": "The ultimate challenge! Navigate through the complex reef!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 6,
+          "start": [0, 0],
+          "end": [5, 5],
+          "obstacles": [[1, 1], [2, 2], [3, 3], [1, 3], [3, 1], [2, 4], [4, 2]],
+          "instruction": "Find the path through the ultimate maze!"
+        },
+        "hint": "Plan carefully and think ahead!",
+        "funFact": "Coral reefs cover less than 1% of the ocean but support 25% of marine life!",
+        "rewardBadge": { "badgeName": "Master Navigator", "xp": 95 },
+        "characterDialogue": {
+          "character": "Marina",
+          "intro": "🧜‍♀️ This is the ultimate challenge!",
+          "success": "🧜‍♀️ Incredible! You're a master!"
+        },
+        "difficulty": 9
+      },
+      {
+        "levelNumber": 19,
+        "title": "Ocean Ecosystem",
+        "miniStory": "Everything in the ocean is connected! Match the relationships!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🌿 Plankton", "right": "☀️ Makes Oxygen" },
+            { "left": "🪸 Coral", "right": "🏠 Provides Homes" },
+            { "left": "🦈 Shark", "right": "⚖️ Keeps Balance" },
+            { "left": "🐢 Turtle", "right": "🌊 Spreads Seeds" },
+            { "left": "🐋 Whale", "right": "🍽️ Feeds Others" }
+          ],
+          "instruction": "Match each creature to its role!"
+        },
+        "hint": "Every creature has an important job!",
+        "funFact": "Plankton produce 50% of Earth's oxygen!",
+        "rewardBadge": { "badgeName": "Ecosystem Expert", "xp": 100 },
+        "characterDialogue": {
+          "character": "Professor Pufferfish",
+          "intro": "🐡 Let's understand the ecosystem!",
+          "success": "🐡 Perfect! You're an expert!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 20,
+        "title": "Ocean Master Challenge",
+        "miniStory": "You've learned so much! Time for the final master challenge!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🌊 Ocean Surface", "🐠 Coral Reef", "🦈 Open Ocean", "🐙 Deep Sea", "⚫ Ocean Floor", "🌍 Complete Cycle"],
+          "options": ["🌍 Complete Cycle", "🌊 Ocean Surface", "🐙 Deep Sea", "🐠 Coral Reef", "⚫ Ocean Floor", "🦈 Open Ocean"],
+          "instruction": "Arrange the complete ocean journey!"
+        },
+        "hint": "Start at the surface and go deeper!",
+        "funFact": "You're now an Ocean Master! The ocean is 71% of Earth's surface!",
+        "rewardBadge": { "badgeName": "Ocean Master", "xp": 150 },
+        "characterDialogue": {
+          "character": "Marina",
+          "intro": "🧜‍♀️ Final challenge! Show me everything you've learned!",
+          "success": "🧜‍♀️ INCREDIBLE! You're an Ocean Master! 🏆"
+        },
+        "difficulty": 10
+      }
+    ],
+    "totalXP": 1320
+  }
+}

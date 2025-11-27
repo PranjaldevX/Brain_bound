@@ -1,0 +1,1152 @@
+{
+  "levelPack": {
+    "topic": "Space Explorer",
+    "packTitle": "Space Explorer Adventure",
+    "packDescription": "Join Captain Zara on an exciting journey through the cosmos!",
+    "totalLevels": 20,
+    "estimatedTime": "60-80 minutes",
+    "ageRange": "5-8 years",
+    "levels": [
+      {
+        "levelNumber": 1,
+        "title": "Planet Match",
+        "miniStory": "Captain Zara needs help identifying planets in our solar system.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "☿️ Mercury", "right": "Closest to Sun" },
+            { "left": "♀️ Venus", "right": "Hottest Planet" },
+            { "left": "🌍 Earth", "right": "Our Home" },
+            { "left": "♂️ Mars", "right": "Red Planet" },
+            { "left": "♃ Jupiter", "right": "Largest Planet" }
+          ],
+          "instruction": "Match each planet to its special feature!"
+        },
+        "hint": "Mercury is closest to the Sun!",
+        "funFact": "Jupiter is so big that all other planets could fit inside it!",
+        "rewardBadge": { "badgeName": "Space Scout", "xp": 10 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Hello! I'm Captain Zara! Let's learn about planets!",
+          "success": "🚀 Fantastic! You know your planets well!"
+        }
+      },
+      {
+        "levelNumber": 2,
+        "title": "Asteroid Navigation",
+        "miniStory": "Navigate through an asteroid field safely!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 4,
+          "start": [0, 0],
+          "end": [3, 3],
+          "obstacles": [[1, 1], [2, 2]],
+          "instruction": "Navigate through the asteroid field!"
+        },
+        "hint": "Go around the asteroids!",
+        "funFact": "Most asteroids are found between Mars and Jupiter!",
+        "rewardBadge": { "badgeName": "Asteroid Navigator", "xp": 15 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Plot a safe course through the asteroids!",
+          "success": "🚀 Excellent piloting!"
+        }
+      },
+      {
+        "levelNumber": 3,
+        "title": "Star Brightness",
+        "miniStory": "Arrange stars from dimmest to brightest!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["⭐ Dim Star", "🌟 Medium Star", "✨ Bright Star", "💫 Very Bright Star", "🌠 Supernova"],
+          "options": ["🌠 Supernova", "⭐ Dim Star", "💫 Very Bright Star", "🌟 Medium Star", "✨ Bright Star"],
+          "instruction": "Arrange stars by brightness!"
+        },
+        "hint": "Start with the dimmest star!",
+        "funFact": "The brightest stars can be seen from millions of light-years away!",
+        "rewardBadge": { "badgeName": "Star Mapper", "xp": 20 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's learn about star brightness!",
+          "success": "🚀 You're a natural star mapper!"
+        }
+      },
+      {
+        "levelNumber": 4,
+        "title": "Rocket Parts",
+        "miniStory": "Assemble the rocket correctly!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🔥 Engine", "⛽ Fuel Tank", "🚀 Body", "📡 Antenna", "🎯 Nose Cone"],
+          "options": ["🎯 Nose Cone", "🔥 Engine", "📡 Antenna", "⛽ Fuel Tank", "🚀 Body"],
+          "instruction": "Build the rocket from bottom to top!"
+        },
+        "hint": "Engines go at the bottom!",
+        "funFact": "Saturn V rocket was as tall as a 36-story building!",
+        "rewardBadge": { "badgeName": "Rocket Engineer", "xp": 25 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Help me assemble this rocket!",
+          "success": "🚀 Perfect rocket assembly!"
+        }
+      },
+      {
+        "levelNumber": 5,
+        "title": "Moon Phases",
+        "miniStory": "Arrange the moon phases in correct order!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🌑 New Moon", "🌒 Crescent", "🌓 Half Moon", "🌔 Gibbous", "🌕 Full Moon"],
+          "options": ["🌕 Full Moon", "🌒 Crescent", "🌑 New Moon", "🌔 Gibbous", "🌓 Half Moon"],
+          "instruction": "Arrange moon phases in order!"
+        },
+        "hint": "Start with the new moon!",
+        "funFact": "The Moon takes 29.5 days to go through all phases!",
+        "rewardBadge": { "badgeName": "Lunar Expert", "xp": 30 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Learn about moon phases!",
+          "success": "🚀 You understand the moon cycle!"
+        }
+      },
+      {
+        "levelNumber": 6,
+        "title": "Space Tools",
+        "miniStory": "Match space tools to their uses!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🔭 Telescope", "right": "See Far Objects" },
+            { "left": "🛰️ Satellite", "right": "Orbit Earth" },
+            { "left": "🚀 Rocket", "right": "Travel to Space" },
+            { "left": "👨‍🚀 Spacesuit", "right": "Protect Astronaut" },
+            { "left": "📡 Antenna", "right": "Send Signals" }
+          ],
+          "instruction": "Match tools to their uses!"
+        },
+        "hint": "Think about what each tool does!",
+        "funFact": "Telescopes help us see objects billions of light-years away!",
+        "rewardBadge": { "badgeName": "Space Technician", "xp": 35 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Learn about space tools!",
+          "success": "🚀 You know all the tools!"
+        }
+      },
+      {
+        "levelNumber": 7,
+        "title": "Comet Path",
+        "miniStory": "Guide the comet through space!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 5,
+          "start": [0, 0],
+          "end": [4, 4],
+          "obstacles": [[1, 1], [2, 3], [3, 2]],
+          "instruction": "Guide the comet safely!"
+        },
+        "hint": "Comets travel in long paths!",
+        "funFact": "Halley's Comet returns every 76 years!",
+        "rewardBadge": { "badgeName": "Comet Tracker", "xp": 40 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Track this comet's path!",
+          "success": "🚀 Perfect comet tracking!"
+        }
+      },
+      {
+        "levelNumber": 8,
+        "title": "Planet Sizes",
+        "miniStory": "Arrange planets by size!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["☿️ Mercury", "♂️ Mars", "♀️ Venus", "🌍 Earth", "♃ Jupiter"],
+          "options": ["♃ Jupiter", "☿️ Mercury", "🌍 Earth", "♂️ Mars", "♀️ Venus"],
+          "instruction": "Arrange from smallest to largest!"
+        },
+        "hint": "Mercury is the smallest planet!",
+        "funFact": "Jupiter is 11 times wider than Earth!",
+        "rewardBadge": { "badgeName": "Planet Expert", "xp": 45 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's compare planet sizes!",
+          "success": "🚀 You know planet sizes perfectly!"
+        }
+      },
+      {
+        "levelNumber": 9,
+        "title": "Space Station",
+        "miniStory": "Match space station parts!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "⚡ Solar Panels", "right": "Generate Power" },
+            { "left": "🏠 Living Module", "right": "Astronaut Home" },
+            { "left": "🔬 Lab Module", "right": "Do Experiments" },
+            { "left": "🚪 Airlock", "right": "Enter/Exit Station" },
+            { "left": "📡 Communications", "right": "Talk to Earth" }
+          ],
+          "instruction": "Match station parts to functions!"
+        },
+        "hint": "Solar panels make electricity!",
+        "funFact": "ISS travels at 17,500 mph!",
+        "rewardBadge": { "badgeName": "Station Builder", "xp": 50 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Learn about space stations!",
+          "success": "🚀 You're a station expert!"
+        }
+      },
+      {
+        "levelNumber": 10,
+        "title": "Meteor Shower",
+        "miniStory": "Navigate through a meteor shower!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 5,
+          "start": [0, 2],
+          "end": [4, 2],
+          "obstacles": [[1, 1], [1, 3], [2, 2], [3, 1], [3, 3]],
+          "instruction": "Dodge the meteors!"
+        },
+        "hint": "Find the safest path!",
+        "funFact": "Earth passes through meteor showers every year!",
+        "rewardBadge": { "badgeName": "Meteor Dodger", "xp": 55 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Careful! Meteors ahead!",
+          "success": "🚀 Amazing dodging skills!"
+        }
+      },
+      {
+        "levelNumber": 11,
+        "title": "Galaxy Types",
+        "miniStory": "Match galaxies to their shapes!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🌀 Spiral Galaxy", "right": "Has Curved Arms" },
+            { "left": "⭕ Elliptical Galaxy", "right": "Oval Shaped" },
+            { "left": "🔷 Irregular Galaxy", "right": "No Clear Shape" },
+            { "left": "🌌 Milky Way", "right": "Our Galaxy" },
+            { "left": "🌠 Andromeda", "right": "Nearest Big Galaxy" }
+          ],
+          "instruction": "Match galaxies to descriptions!"
+        },
+        "hint": "Spiral galaxies have arms!",
+        "funFact": "There are 2 trillion galaxies in the universe!",
+        "rewardBadge": { "badgeName": "Galaxy Hunter", "xp": 60 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Discover galaxy types!",
+          "success": "🚀 You're a galaxy expert!"
+        }
+      },
+      {
+        "levelNumber": 12,
+        "title": "Astronaut Training",
+        "miniStory": "Arrange astronaut training steps!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["📚 Study", "🏋️ Physical Training", "🚀 Simulator Practice", "🌊 Water Training", "🎓 Graduation"],
+          "options": ["🎓 Graduation", "📚 Study", "🌊 Water Training", "🏋️ Physical Training", "🚀 Simulator Practice"],
+          "instruction": "Arrange training steps in order!"
+        },
+        "hint": "Start with studying!",
+        "funFact": "Astronaut training takes 2-3 years!",
+        "rewardBadge": { "badgeName": "Astronaut Trainee", "xp": 65 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Learn how astronauts train!",
+          "success": "🚀 You're ready for space!"
+        }
+      },
+      {
+        "levelNumber": 13,
+        "title": "Solar System Order",
+        "miniStory": "Arrange planets from Sun outward!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["☿️ Mercury", "♀️ Venus", "🌍 Earth", "♂️ Mars", "♃ Jupiter", "♄ Saturn", "♅ Uranus", "♆ Neptune"],
+          "options": ["♆ Neptune", "☿️ Mercury", "♃ Jupiter", "♀️ Venus", "♄ Saturn", "🌍 Earth", "♅ Uranus", "♂️ Mars"],
+          "instruction": "Arrange planets from Sun!"
+        },
+        "hint": "My Very Educated Mother Just Served Us Nachos!",
+        "funFact": "Neptune is 30 times farther from Sun than Earth!",
+        "rewardBadge": { "badgeName": "Solar System Master", "xp": 70 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Put planets in order!",
+          "success": "🚀 Perfect solar system knowledge!"
+        }
+      },
+      {
+        "levelNumber": 14,
+        "title": "Space Debris",
+        "miniStory": "Navigate through space junk!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 6,
+          "start": [0, 0],
+          "end": [5, 5],
+          "obstacles": [[1, 2], [2, 1], [2, 4], [3, 3], [4, 2], [4, 4]],
+          "instruction": "Avoid space debris!"
+        },
+        "hint": "Space junk is dangerous!",
+        "funFact": "Over 500,000 pieces of debris orbit Earth!",
+        "rewardBadge": { "badgeName": "Debris Navigator", "xp": 75 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Watch out for space junk!",
+          "success": "🚀 Safe navigation!"
+        }
+      },
+      {
+        "levelNumber": 15,
+        "title": "Star Life Cycle",
+        "miniStory": "Arrange star life stages!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["☁️ Nebula", "⭐ Baby Star", "🌟 Main Star", "🔴 Red Giant", "💥 Supernova", "⚫ Black Hole"],
+          "options": ["⚫ Black Hole", "☁️ Nebula", "💥 Supernova", "⭐ Baby Star", "🔴 Red Giant", "🌟 Main Star"],
+          "instruction": "Arrange star life cycle!"
+        },
+        "hint": "Stars are born in nebulas!",
+        "funFact": "Our Sun is a middle-aged star!",
+        "rewardBadge": { "badgeName": "Star Scientist", "xp": 80 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Learn how stars live and die!",
+          "success": "🚀 You understand star life!"
+        }
+      },
+      {
+        "levelNumber": 16,
+        "title": "Satellite Types",
+        "miniStory": "Match satellites to their jobs!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "📡 Communication", "right": "TV and Phone" },
+            { "left": "🌍 Weather", "right": "Predict Weather" },
+            { "left": "🗺️ GPS", "right": "Navigation" },
+            { "left": "📷 Spy", "right": "Take Pictures" },
+            { "left": "🔭 Space Telescope", "right": "Study Universe" }
+          ],
+          "instruction": "Match satellites to functions!"
+        },
+        "hint": "GPS satellites help with directions!",
+        "funFact": "Over 2,000 satellites orbit Earth!",
+        "rewardBadge": { "badgeName": "Satellite Expert", "xp": 85 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Learn about satellites!",
+          "success": "🚀 You know all satellite types!"
+        }
+      },
+      {
+        "levelNumber": 17,
+        "title": "Deep Space Journey",
+        "miniStory": "Travel to the edge of solar system!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 6,
+          "start": [0, 3],
+          "end": [5, 3],
+          "obstacles": [[1, 1], [1, 5], [2, 2], [3, 4], [4, 1], [4, 5]],
+          "instruction": "Journey to deep space!"
+        },
+        "hint": "It's a long journey!",
+        "funFact": "Voyager 1 is the farthest human-made object!",
+        "rewardBadge": { "badgeName": "Deep Space Explorer", "xp": 90 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's go to deep space!",
+          "success": "🚀 You've reached the edge!"
+        }
+      },
+      {
+        "levelNumber": 18,
+        "title": "Space Phenomena",
+        "miniStory": "Match space events to descriptions!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🌑 Eclipse", "right": "Moon Blocks Sun" },
+            { "left": "☄️ Comet", "right": "Icy Space Rock" },
+            { "left": "💫 Meteor", "right": "Shooting Star" },
+            { "left": "🌠 Aurora", "right": "Northern Lights" },
+            { "left": "🌌 Nebula", "right": "Star Nursery" }
+          ],
+          "instruction": "Match phenomena to descriptions!"
+        },
+        "hint": "Eclipses happen when Moon blocks Sun!",
+        "funFact": "Auroras are caused by solar wind!",
+        "rewardBadge": { "badgeName": "Phenomena Expert", "xp": 95 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Learn about space events!",
+          "success": "🚀 You know all phenomena!"
+        }
+      },
+      {
+        "levelNumber": 19,
+        "title": "Mission to Mars",
+        "miniStory": "Plan the Mars mission steps!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🚀 Launch", "🌍 Leave Earth", "🛰️ Space Travel", "♂️ Mars Orbit", "🏴 Landing", "🚶 Exploration"],
+          "options": ["🚶 Exploration", "🚀 Launch", "♂️ Mars Orbit", "🌍 Leave Earth", "🏴 Landing", "🛰️ Space Travel"],
+          "instruction": "Arrange Mars mission steps!"
+        },
+        "hint": "First we launch, then travel!",
+        "funFact": "Mars trip takes 6-9 months!",
+        "rewardBadge": { "badgeName": "Mars Pioneer", "xp": 100 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Plan our Mars mission!",
+          "success": "🚀 Perfect mission plan!"
+        }
+      },
+      {
+        "levelNumber": 20,
+        "title": "Space Master Challenge",
+        "miniStory": "The ultimate space test! Prove you're a Space Master!",
+        "puzzleType": "Mixed",
+        "puzzleData": {
+          "phase1": {
+            "type": "Matching",
+            "pairs": [
+              { "left": "🌌 Universe", "right": "Everything That Exists" },
+              { "left": "🌟 Star", "right": "Makes Own Light" },
+              { "left": "🪐 Planet", "right": "Orbits a Star" }
+            ]
+          },
+          "phase2": {
+            "type": "PathBuilder",
+            "gridSize": 5,
+            "start": [0, 0],
+            "end": [4, 4],
+            "obstacles": [[1, 1], [2, 2], [3, 3]]
+          },
+          "phase3": {
+            "type": "Sequence",
+            "correctSequence": ["💭 Dream", "📚 Learn", "🚀 Train", "🌟 Launch", "👑 Space Master"],
+            "options": ["👑 Space Master", "💭 Dream", "🌟 Launch", "📚 Learn", "🚀 Train"]
+          },
+          "instruction": "Complete all phases to become Space Master!"
+        },
+        "hint": "Use everything you learned!",
+        "funFact": "You've mastered space exploration!",
+        "rewardBadge": { "badgeName": "Space Master", "xp": 150 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Final test! Prove you're Space Master!",
+          "success": "🚀 YOU DID IT! You're now Space Master! The universe is yours to explore!"
+        }
+      },
+      {
+        "levelNumber": 21,
+        "title": "Exoplanet Discovery",
+        "miniStory": "Scientists have found planets outside our solar system! Help identify different types of exoplanets.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🌍 Earth-like", "right": "Rocky & Habitable" },
+            { "left": "🪐 Gas Giant", "right": "Huge & Gassy" },
+            { "left": "🔥 Hot Jupiter", "right": "Close to Star" },
+            { "left": "❄️ Ice Giant", "right": "Frozen & Far" },
+            { "left": "🌑 Super Earth", "right": "Bigger than Earth" },
+            { "left": "💎 Diamond Planet", "right": "Made of Carbon" }
+          ],
+          "instruction": "Match each exoplanet type to its description!"
+        },
+        "hint": "Exoplanets are planets that orbit stars other than our Sun!",
+        "funFact": "Scientists have discovered over 5,000 exoplanets so far!",
+        "rewardBadge": { "badgeName": "Planet Hunter", "xp": 80 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's discover new worlds beyond our solar system!",
+          "success": "🚀 Amazing! You're a true planet hunter!"
+        },
+        "difficulty": 5
+      },
+      {
+        "levelNumber": 22,
+        "title": "Alien Worlds",
+        "miniStory": "Imagine what alien planets might look like! Navigate through strange new worlds.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 6,
+          "start": [0, 0],
+          "end": [5, 5],
+          "obstacles": [[1, 1], [2, 3], [3, 2], [4, 4], [1, 4]],
+          "instruction": "Guide your spaceship through the alien landscape!"
+        },
+        "hint": "Alien planets might have purple skies, two suns, or floating rocks!",
+        "funFact": "Some exoplanets might have glass rain or oceans of lava!",
+        "rewardBadge": { "badgeName": "Alien Explorer", "xp": 85 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Welcome to a world unlike anything on Earth!",
+          "success": "🚀 You've explored an alien world!"
+        },
+        "difficulty": 6
+      },
+      {
+        "levelNumber": 23,
+        "title": "Space Colonies",
+        "miniStory": "Humans are planning to live on other planets! Learn what we need for a space colony.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🚀 Land Ship", "🏗️ Build Base", "💧 Find Water", "🌱 Grow Food", "👨‍👩‍👧 Bring People", "🏙️ Build City"],
+          "options": ["🏙️ Build City", "🚀 Land Ship", "👨‍👩‍👧 Bring People", "🏗️ Build Base", "🌱 Grow Food", "💧 Find Water"],
+          "instruction": "Put the colony building steps in order!"
+        },
+        "hint": "First land, then build shelter, find resources, and finally bring more people!",
+        "funFact": "NASA plans to send humans to Mars in the 2030s!",
+        "rewardBadge": { "badgeName": "Colony Builder", "xp": 90 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's build humanity's first space colony!",
+          "success": "🚀 Perfect! You know how to colonize space!"
+        },
+        "difficulty": 6
+      },
+      {
+        "levelNumber": 24,
+        "title": "Mars Base Alpha",
+        "miniStory": "You're the commander of the first Mars base! Match each facility to its purpose.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🏠 Habitat", "right": "Living Quarters" },
+            { "left": "🌱 Greenhouse", "right": "Grow Food" },
+            { "left": "🔬 Lab", "right": "Do Science" },
+            { "left": "⚡ Solar Panels", "right": "Make Power" },
+            { "left": "💧 Water Extractor", "right": "Get Water" },
+            { "left": "🚀 Landing Pad", "right": "Ships Arrive" },
+            { "left": "🛡️ Radiation Shield", "right": "Stay Safe" }
+          ],
+          "instruction": "Match each Mars base facility to what it does!"
+        },
+        "hint": "A Mars base needs power, water, food, shelter, and protection!",
+        "funFact": "Mars has only 38% of Earth's gravity - you could jump 3 times higher!",
+        "rewardBadge": { "badgeName": "Mars Commander", "xp": 95 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Welcome to Mars Base Alpha, Commander!",
+          "success": "🚀 Excellent work, Commander! The base is operational!"
+        },
+        "difficulty": 6
+      },
+      {
+        "levelNumber": 25,
+        "title": "Moon Mining",
+        "miniStory": "The Moon has valuable resources! Navigate through the mining operation.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 6,
+          "start": [0, 0],
+          "end": [5, 5],
+          "obstacles": [[1, 2], [2, 2], [3, 3], [4, 1], [2, 4], [4, 3]],
+          "instruction": "Guide the mining rover to collect lunar resources!"
+        },
+        "hint": "The Moon has helium-3, water ice, and rare metals!",
+        "funFact": "Moon dust is so sharp it can cut through spacesuits!",
+        "rewardBadge": { "badgeName": "Lunar Miner", "xp": 100 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Time to mine the Moon's treasures!",
+          "success": "🚀 Great job! You've collected valuable lunar resources!"
+        },
+        "difficulty": 7
+      },
+      {
+        "levelNumber": 26,
+        "title": "Asteroid Mining",
+        "miniStory": "Asteroids contain precious metals worth trillions! Learn about asteroid mining.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🔭 Find Asteroid", "🚀 Send Ship", "⚓ Anchor to Rock", "⛏️ Mine Metals", "📦 Load Cargo", "🏠 Return Home"],
+          "options": ["📦 Load Cargo", "🔭 Find Asteroid", "🏠 Return Home", "🚀 Send Ship", "⛏️ Mine Metals", "⚓ Anchor to Rock"],
+          "instruction": "Show the steps of asteroid mining!"
+        },
+        "hint": "First find a good asteroid, then send a ship to mine it!",
+        "funFact": "One asteroid could contain $10 trillion worth of platinum!",
+        "rewardBadge": { "badgeName": "Asteroid Miner", "xp": 105 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's mine space rocks for treasure!",
+          "success": "🚀 Incredible! You're now a space prospector!"
+        },
+        "difficulty": 7
+      },
+      {
+        "levelNumber": 27,
+        "title": "Space Tourism",
+        "miniStory": "Space travel is becoming a vacation! Match tourists with their space activities.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🏨 Space Hotel", "right": "Sleep in Orbit" },
+            { "left": "🌍 Earth View", "right": "See Home Planet" },
+            { "left": "🎈 Zero Gravity", "right": "Float Around" },
+            { "left": "🍕 Space Food", "right": "Eat Floating Meals" },
+            { "left": "🚶 Spacewalk", "right": "Walk Outside" },
+            { "left": "📸 Photos", "right": "Take Selfies" },
+            { "left": "🌅 Sunrise", "right": "See 16 Per Day" }
+          ],
+          "instruction": "Match each space tourism activity!"
+        },
+        "hint": "Space tourists can float, see Earth, and experience amazing views!",
+        "funFact": "In space, you see a sunrise every 90 minutes!",
+        "rewardBadge": { "badgeName": "Space Tourist", "xp": 110 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Welcome aboard the space tourism flight!",
+          "success": "🚀 Hope you enjoyed your space vacation!"
+        },
+        "difficulty": 7
+      },
+      {
+        "levelNumber": 28,
+        "title": "Orbital Hotels",
+        "miniStory": "Design the perfect space hotel! Navigate through the hotel layout.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 7,
+          "start": [0, 0],
+          "end": [6, 6],
+          "obstacles": [[1, 1], [2, 3], [3, 2], [4, 4], [5, 1], [2, 5], [4, 5]],
+          "instruction": "Guide guests through the space hotel!"
+        },
+        "hint": "Space hotels need bedrooms, restaurants, observation decks, and gyms!",
+        "funFact": "The first space hotel could open by 2027!",
+        "rewardBadge": { "badgeName": "Hotel Manager", "xp": 115 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Welcome to the Orbital Grand Hotel!",
+          "success": "🚀 Your guests had an amazing stay!"
+        },
+        "difficulty": 7
+      },
+      {
+        "levelNumber": 29,
+        "title": "Space Elevator",
+        "miniStory": "Imagine an elevator to space! Learn how this amazing idea could work.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🏗️ Build Tower", "🪢 Attach Cable", "🛗 Install Elevator", "⚡ Add Power", "🚀 Test Ride", "🌍 Open to Public"],
+          "options": ["🌍 Open to Public", "🏗️ Build Tower", "🚀 Test Ride", "🪢 Attach Cable", "⚡ Add Power", "🛗 Install Elevator"],
+          "instruction": "Show how to build a space elevator!"
+        },
+        "hint": "A space elevator would be a cable from Earth to space!",
+        "funFact": "A space elevator could make space travel 100 times cheaper!",
+        "rewardBadge": { "badgeName": "Elevator Engineer", "xp": 120 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's build an elevator to the stars!",
+          "success": "🚀 Amazing! You've revolutionized space travel!"
+        },
+        "difficulty": 8
+      },
+      {
+        "levelNumber": 30,
+        "title": "Warp Drive Dreams",
+        "miniStory": "Could we travel faster than light? Match sci-fi concepts with real science!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "⚡ Warp Drive", "right": "Bend Space-Time" },
+            { "left": "🕳️ Wormhole", "right": "Shortcut Through Space" },
+            { "left": "🌌 Hyperspace", "right": "Alternate Dimension" },
+            { "left": "❄️ Cryosleep", "right": "Freeze for Travel" },
+            { "left": "🚀 Ion Drive", "right": "Super Efficient" },
+            { "left": "☀️ Solar Sail", "right": "Pushed by Light" },
+            { "left": "⚛️ Antimatter", "right": "Ultimate Fuel" }
+          ],
+          "instruction": "Match future space tech to how it works!"
+        },
+        "hint": "Scientists are working on ways to travel between stars!",
+        "funFact": "With current tech, it would take 80,000 years to reach the nearest star!",
+        "rewardBadge": { "badgeName": "Future Scientist", "xp": 125 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's dream about the future of space travel!",
+          "success": "🚀 You're thinking like a future space pioneer!"
+        },
+        "difficulty": 8
+      },
+      {
+        "levelNumber": 31,
+        "title": "Time Dilation",
+        "miniStory": "Einstein discovered that time moves differently in space! Learn about this mind-bending concept.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🚀 Leave Earth", "⚡ Travel Fast", "⏰ Time Slows", "🌍 Return Home", "👴 Friends Aged", "😮 You're Young"],
+          "options": ["😮 You're Young", "🚀 Leave Earth", "👴 Friends Aged", "⚡ Travel Fast", "🌍 Return Home", "⏰ Time Slows"],
+          "instruction": "Show how time dilation works!"
+        },
+        "hint": "The faster you travel, the slower time moves for you!",
+        "funFact": "If you traveled at 99% light speed for 1 year, 7 years would pass on Earth!",
+        "rewardBadge": { "badgeName": "Time Traveler", "xp": 130 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Ready to bend time itself?",
+          "success": "🚀 Mind-blowing! You understand Einstein's theory!"
+        },
+        "difficulty": 9
+      },
+      {
+        "levelNumber": 32,
+        "title": "Wormholes",
+        "miniStory": "Wormholes might be shortcuts through space-time! Navigate through this cosmic tunnel.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 8,
+          "start": [0, 0],
+          "end": [7, 7],
+          "obstacles": [[1, 2], [2, 2], [3, 4], [4, 3], [5, 5], [6, 2], [3, 6], [5, 1]],
+          "instruction": "Find the path through the wormhole!"
+        },
+        "hint": "Wormholes are theoretical tunnels connecting distant parts of the universe!",
+        "funFact": "A wormhole could theoretically let you travel across the galaxy instantly!",
+        "rewardBadge": { "badgeName": "Wormhole Navigator", "xp": 135 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's take a shortcut through space-time!",
+          "success": "🚀 Amazing! You navigated a wormhole!"
+        },
+        "difficulty": 9
+      },
+      {
+        "levelNumber": 33,
+        "title": "Parallel Universe",
+        "miniStory": "Could there be other universes? Match multiverse theories!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🌌 Multiverse", "right": "Many Universes" },
+            { "left": "🪞 Mirror Universe", "right": "Opposite of Ours" },
+            { "left": "🎲 Quantum Universe", "right": "Every Choice Splits" },
+            { "left": "🔄 Cyclic Universe", "right": "Repeats Forever" },
+            { "left": "🫧 Bubble Universe", "right": "Separate Bubbles" },
+            { "left": "📐 Higher Dimensions", "right": "Beyond 3D Space" },
+            { "left": "🌀 String Theory", "right": "Vibrating Strings" }
+          ],
+          "instruction": "Match each universe theory!"
+        },
+        "hint": "Scientists think there might be infinite parallel universes!",
+        "funFact": "In some parallel universe, you might be a superhero!",
+        "rewardBadge": { "badgeName": "Multiverse Explorer", "xp": 140 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's explore the idea of parallel worlds!",
+          "success": "🚀 Incredible! The multiverse is mind-blowing!"
+        },
+        "difficulty": 9
+      },
+      {
+        "levelNumber": 34,
+        "title": "Dark Matter",
+        "miniStory": "Most of the universe is invisible! Learn about mysterious dark matter.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🌌 Observe Galaxy", "🔄 Spins Too Fast", "🤔 Something Missing", "🔬 Calculate Mass", "👻 Find Dark Matter", "🎯 Solve Mystery"],
+          "options": ["🎯 Solve Mystery", "🌌 Observe Galaxy", "👻 Find Dark Matter", "🔄 Spins Too Fast", "🔬 Calculate Mass", "🤔 Something Missing"],
+          "instruction": "Show how scientists discovered dark matter!"
+        },
+        "hint": "Dark matter doesn't emit light but has gravity!",
+        "funFact": "Dark matter makes up 85% of all matter in the universe!",
+        "rewardBadge": { "badgeName": "Dark Matter Detective", "xp": 145 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's hunt for invisible matter!",
+          "success": "🚀 You found the universe's hidden secret!"
+        },
+        "difficulty": 9
+      },
+      {
+        "levelNumber": 35,
+        "title": "Dark Energy",
+        "miniStory": "The universe is expanding faster and faster! Dark energy is pushing it apart.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 8,
+          "start": [0, 0],
+          "end": [7, 7],
+          "obstacles": [[1, 1], [2, 4], [3, 2], [4, 5], [5, 3], [6, 6], [2, 6], [5, 1]],
+          "instruction": "Navigate through expanding space!"
+        },
+        "hint": "Dark energy is making the universe expand faster!",
+        "funFact": "Dark energy makes up 68% of the entire universe!",
+        "rewardBadge": { "badgeName": "Energy Master", "xp": 150 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 The universe is growing! Let's find out why!",
+          "success": "🚀 You understand the force expanding the cosmos!"
+        },
+        "difficulty": 9
+      },
+      {
+        "levelNumber": 36,
+        "title": "Quantum Physics",
+        "miniStory": "At the tiniest scale, physics gets weird! Match quantum concepts.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "⚛️ Quantum", "right": "Smallest Possible" },
+            { "left": "🎲 Superposition", "right": "Two States at Once" },
+            { "left": "👻 Entanglement", "right": "Spooky Connection" },
+            { "left": "🌊 Wave-Particle", "right": "Both at Same Time" },
+            { "left": "🔮 Uncertainty", "right": "Can't Know Everything" },
+            { "left": "🐱 Schrödinger's Cat", "right": "Alive and Dead" },
+            { "left": "🎯 Quantum Leap", "right": "Instant Jump" }
+          ],
+          "instruction": "Match quantum physics concepts!"
+        },
+        "hint": "Quantum physics is the science of the super tiny!",
+        "funFact": "Particles can be in two places at once until you look at them!",
+        "rewardBadge": { "badgeName": "Quantum Physicist", "xp": 155 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Welcome to the weird world of quantum physics!",
+          "success": "🚀 Your brain just expanded to quantum level!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 37,
+        "title": "String Theory",
+        "miniStory": "What if everything is made of tiny vibrating strings? Explore this wild idea!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🎻 Tiny Strings", "🎵 Vibrate", "⚛️ Make Particles", "🌟 Form Atoms", "🌍 Build Universe", "🎭 Everything Exists"],
+          "options": ["🎭 Everything Exists", "🎻 Tiny Strings", "🌍 Build Universe", "🎵 Vibrate", "🌟 Form Atoms", "⚛️ Make Particles"],
+          "instruction": "Show how string theory explains everything!"
+        },
+        "hint": "String theory says everything is made of vibrating strings!",
+        "funFact": "String theory requires 11 dimensions to work!",
+        "rewardBadge": { "badgeName": "String Theorist", "xp": 160 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 What if the universe is like a cosmic symphony?",
+          "success": "🚀 You understand one of physics' biggest ideas!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 38,
+        "title": "Multiverse",
+        "miniStory": "Navigate through different possible universes in the multiverse!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 9,
+          "start": [0, 0],
+          "end": [8, 8],
+          "obstacles": [[1, 2], [2, 4], [3, 1], [4, 5], [5, 3], [6, 7], [7, 2], [3, 6], [5, 8]],
+          "instruction": "Travel between parallel universes!"
+        },
+        "hint": "Each universe might have different laws of physics!",
+        "funFact": "There might be infinite versions of you in parallel universes!",
+        "rewardBadge": { "badgeName": "Universe Hopper", "xp": 165 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's jump between universes!",
+          "success": "🚀 You've mastered multiverse travel!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 39,
+        "title": "Big Crunch",
+        "miniStory": "Will the universe expand forever or collapse back? Match theories about the universe's fate!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "💥 Big Bang", "right": "Universe Begins" },
+            { "left": "📈 Expansion", "right": "Universe Grows" },
+            { "left": "🔄 Big Crunch", "right": "Universe Collapses" },
+            { "left": "❄️ Big Freeze", "right": "Everything Cools" },
+            { "left": "💔 Big Rip", "right": "Everything Tears" },
+            { "left": "🔁 Big Bounce", "right": "Universe Restarts" },
+            { "left": "♾️ Heat Death", "right": "Maximum Entropy" }
+          ],
+          "instruction": "Match theories about the universe's end!"
+        },
+        "hint": "Scientists aren't sure how the universe will end!",
+        "funFact": "The universe might end in a Big Freeze in trillions of years!",
+        "rewardBadge": { "badgeName": "Cosmic Prophet", "xp": 170 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's think about the universe's ultimate fate!",
+          "success": "🚀 Deep! You understand cosmic destiny!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 40,
+        "title": "Heat Death",
+        "miniStory": "In the far future, the universe might reach maximum entropy. Learn about the ultimate end!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🌟 Stars Shine", "⚫ Stars Die", "🌌 Galaxies Fade", "❄️ Universe Cools", "⚛️ Atoms Decay", "🌑 Total Darkness"],
+          "options": ["🌑 Total Darkness", "🌟 Stars Shine", "⚛️ Atoms Decay", "⚫ Stars Die", "❄️ Universe Cools", "🌌 Galaxies Fade"],
+          "instruction": "Show the universe's journey to heat death!"
+        },
+        "hint": "Heat death means the universe reaches maximum disorder!",
+        "funFact": "Heat death won't happen for 10^100 years - that's a 1 with 100 zeros!",
+        "rewardBadge": { "badgeName": "Entropy Master", "xp": 175 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's explore the universe's final chapter!",
+          "success": "🚀 Wow! You've seen the end of everything!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 41,
+        "title": "First Contact",
+        "miniStory": "What if we meet aliens? Match protocols for first contact with extraterrestrial life!",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "📡 Send Signal", "right": "Say Hello" },
+            { "left": "🔬 Study Them", "right": "Learn Biology" },
+            { "left": "🗣️ Communicate", "right": "Find Common Language" },
+            { "left": "🤝 Be Peaceful", "right": "Show Friendship" },
+            { "left": "🌍 Share Culture", "right": "Exchange Knowledge" },
+            { "left": "⚠️ Be Careful", "right": "Avoid Diseases" },
+            { "left": "📸 Document", "right": "Record History" }
+          ],
+          "instruction": "Match each first contact step!"
+        },
+        "hint": "First contact with aliens would be the biggest event in human history!",
+        "funFact": "Scientists have a protocol ready for if we detect alien signals!",
+        "rewardBadge": { "badgeName": "First Contact Ambassador", "xp": 180 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Are we alone? Let's prepare for first contact!",
+          "success": "🚀 You're ready to meet aliens!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 42,
+        "title": "Alien Language",
+        "miniStory": "How would we talk to aliens? Navigate through communication challenges!",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 10,
+          "start": [0, 0],
+          "end": [9, 9],
+          "obstacles": [[1, 2], [2, 5], [3, 1], [4, 7], [5, 4], [6, 8], [7, 2], [8, 6], [3, 8], [6, 3]],
+          "instruction": "Find a path to communicate with aliens!"
+        },
+        "hint": "Math and science might be universal languages!",
+        "funFact": "The Voyager spacecraft carries a golden record with Earth sounds and images!",
+        "rewardBadge": { "badgeName": "Xenolinguist", "xp": 185 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's learn to speak alien!",
+          "success": "🚀 You found a way to communicate!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 43,
+        "title": "Interstellar Travel",
+        "miniStory": "Traveling between stars takes thousands of years! Match interstellar travel concepts.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🚀 Generation Ship", "right": "Generations Live Onboard" },
+            { "left": "❄️ Cryosleep", "right": "Freeze Crew" },
+            { "left": "🤖 Robot Crew", "right": "AI Pilots" },
+            { "left": "⚡ Light Speed", "right": "186,000 miles/sec" },
+            { "left": "🕳️ Wormhole", "right": "Space Shortcut" },
+            { "left": "🌌 Warp Bubble", "right": "Bend Space" },
+            { "left": "☀️ Solar Sail", "right": "Light Propulsion" }
+          ],
+          "instruction": "Match each interstellar travel method!"
+        },
+        "hint": "The nearest star is 4.2 light-years away!",
+        "funFact": "With current technology, it would take 80,000 years to reach the nearest star!",
+        "rewardBadge": { "badgeName": "Interstellar Pioneer", "xp": 190 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's journey between the stars!",
+          "success": "🚀 You understand interstellar travel!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 44,
+        "title": "Generation Ship",
+        "miniStory": "A generation ship travels for centuries! Show the journey across generations.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🚀 Launch Ship", "👨‍👩‍👧 First Generation", "👶 Born in Space", "📚 Learn Mission", "👴 Elders Die", "🌟 Arrive at Star"],
+          "options": ["🌟 Arrive at Star", "🚀 Launch Ship", "👴 Elders Die", "👨‍👩‍👧 First Generation", "📚 Learn Mission", "👶 Born in Space"],
+          "instruction": "Show life on a generation ship!"
+        },
+        "hint": "People born on the ship would never see Earth or the destination!",
+        "funFact": "A generation ship to Proxima Centauri would need 100+ generations!",
+        "rewardBadge": { "badgeName": "Generation Captain", "xp": 195 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Imagine living your whole life traveling to a star!",
+          "success": "🚀 You understand the sacrifice of interstellar travel!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 45,
+        "title": "Dyson Sphere",
+        "miniStory": "A Dyson Sphere captures all of a star's energy! Navigate this megastructure.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 10,
+          "start": [0, 0],
+          "end": [9, 9],
+          "obstacles": [[1, 3], [2, 6], [3, 2], [4, 8], [5, 4], [6, 9], [7, 1], [8, 7], [3, 9], [6, 5]],
+          "instruction": "Navigate through the Dyson Sphere!"
+        },
+        "hint": "A Dyson Sphere would be the ultimate energy source!",
+        "funFact": "A Dyson Sphere would require more material than all planets in our solar system!",
+        "rewardBadge": { "badgeName": "Megastructure Engineer", "xp": 200 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 This is the ultimate engineering project!",
+          "success": "🚀 You've explored a Dyson Sphere!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 46,
+        "title": "Kardashev Scale",
+        "miniStory": "The Kardashev Scale measures civilization advancement! Match each type.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "🌍 Type I", "right": "Use Planet Energy" },
+            { "left": "☀️ Type II", "right": "Use Star Energy" },
+            { "left": "🌌 Type III", "right": "Use Galaxy Energy" },
+            { "left": "🌐 Type 0", "right": "Earth Now" },
+            { "left": "⚡ Energy Control", "right": "Defines Type" },
+            { "left": "🔮 Type IV", "right": "Use Universe Energy" },
+            { "left": "♾️ Type V", "right": "Use Multiverse" }
+          ],
+          "instruction": "Match each civilization type!"
+        },
+        "hint": "Humans are currently Type 0.7 civilization!",
+        "funFact": "We might reach Type I in 100-200 years!",
+        "rewardBadge": { "badgeName": "Civilization Analyst", "xp": 205 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 How advanced can civilizations become?",
+          "success": "🚀 You understand cosmic civilization levels!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 47,
+        "title": "Fermi Paradox",
+        "miniStory": "If aliens exist, where are they? Explore this cosmic mystery!",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["🌌 Billions of Stars", "🪐 Many Planets", "🧬 Life Should Exist", "👽 Where Are Aliens?", "🤔 The Paradox", "❓ Still Searching"],
+          "options": ["❓ Still Searching", "🌌 Billions of Stars", "🤔 The Paradox", "🪐 Many Planets", "👽 Where Are Aliens?", "🧬 Life Should Exist"],
+          "instruction": "Show the Fermi Paradox logic!"
+        },
+        "hint": "The universe is huge and old - aliens should be everywhere!",
+        "funFact": "Maybe aliens are hiding, or we're the first, or they're too far away!",
+        "rewardBadge": { "badgeName": "Paradox Solver", "xp": 210 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 The universe is silent... why?",
+          "success": "🚀 You've pondered the great silence!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 48,
+        "title": "Drake Equation",
+        "miniStory": "The Drake Equation estimates alien civilizations! Navigate through the calculation.",
+        "puzzleType": "PathBuilder",
+        "puzzleData": {
+          "gridSize": 10,
+          "start": [0, 0],
+          "end": [9, 9],
+          "obstacles": [[1, 2], [2, 6], [3, 3], [4, 8], [5, 5], [6, 9], [7, 2], [8, 7], [4, 9], [7, 5]],
+          "instruction": "Navigate through the Drake Equation!"
+        },
+        "hint": "The Drake Equation multiplies factors to estimate alien civilizations!",
+        "funFact": "Depending on the numbers, there could be 1 or 1 million alien civilizations!",
+        "rewardBadge": { "badgeName": "Drake Calculator", "xp": 215 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's calculate how many aliens exist!",
+          "success": "🚀 You've used the Drake Equation!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 49,
+        "title": "SETI Search",
+        "miniStory": "SETI searches for alien signals! Match search methods.",
+        "puzzleType": "Matching",
+        "puzzleData": {
+          "pairs": [
+            { "left": "📡 Radio Telescopes", "right": "Listen for Signals" },
+            { "left": "💡 Optical SETI", "right": "Look for Laser Pulses" },
+            { "left": "🔭 Technosignatures", "right": "Find Alien Tech" },
+            { "left": "🌟 Dyson Spheres", "right": "Dimmed Stars" },
+            { "left": "🛸 UFO Reports", "right": "Investigate Claims" },
+            { "left": "🧬 Biosignatures", "right": "Life Chemicals" },
+            { "left": "📊 Big Data", "right": "Analyze Signals" }
+          ],
+          "instruction": "Match each SETI search method!"
+        },
+        "hint": "SETI has been searching for 60+ years!",
+        "funFact": "You can help SETI by running SETI@home on your computer!",
+        "rewardBadge": { "badgeName": "SETI Scientist", "xp": 220 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's search for alien signals!",
+          "success": "🚀 You're now a SETI researcher!"
+        },
+        "difficulty": 10
+      },
+      {
+        "levelNumber": 50,
+        "title": "Radio Signals",
+        "miniStory": "If aliens send radio signals, we might detect them! Show the detection process.",
+        "puzzleType": "Sequence",
+        "puzzleData": {
+          "correctSequence": ["👽 Aliens Transmit", "🌌 Signal Travels", "📡 Telescope Receives", "💻 Computer Analyzes", "🔍 Scientists Check", "🎉 Discovery!"],
+          "options": ["🎉 Discovery!", "👽 Aliens Transmit", "🔍 Scientists Check", "🌌 Signal Travels", "💻 Computer Analyzes", "📡 Telescope Receives"],
+          "instruction": "Show how we'd detect alien signals!"
+        },
+        "hint": "Radio waves travel at light speed across space!",
+        "funFact": "The 'Wow!' signal in 1977 might have been from aliens - we still don't know!",
+        "rewardBadge": { "badgeName": "Signal Hunter", "xp": 225 },
+        "characterDialogue": {
+          "character": "Captain Zara",
+          "intro": "🚀 Let's listen for alien broadcasts!",
+          "success": "🚀 Incredible! You've mastered space exploration! You're a true Space Master!"
+        },
+        "difficulty": 10
+      }
+    ],
+    "packRewards": {
+      "completionBadge": {
+        "badgeName": "Space Master",
+        "badgeDescription": "You've conquered the entire cosmos!",
+        "xp": 200
+      },
+      "totalXP": 5880
+    }
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Finder - BrainBound</title>
+    <link rel="stylesheet" href="style-advanced.css">
+</head>
+<body>
+    <div class="game-container">
+        <header class="game-header">
+            <div class="logo">
+                <h1>🧠 BrainBound</h1>
+            </div>
+            <div class="player-stats">
+                <span class="xp-display">⚡ <span id="playerXP">0</span> XP</span>
+                <span class="level-display">🎯 Level <span id="playerLevel">1</span></span>
+            </div>
+        </header>
+
+        <div id="miniGamePlayScreen" class="screen active"></div>
+    </div>
+
+    <script src="mini-games-simple.js"></script>
+    
+    <script>
+        // Load player stats
+        try {
+            const savedProgress = localStorage.getItem('brainbound_progress');
+            if (savedProgress) {
+                const progress = JSON.parse(savedProgress);
+                document.getElementById('playerXP').textContent = progress.playerXP || 0;
+                document.getElementById('playerLevel').textContent = progress.playerLevel || 1;
+            }
+        } catch (e) {
+            console.log('Using default stats');
+        }
+        
+        // Start game
+        window.onload = function() {
+            if (typeof SimpleMiniGames !== 'undefined') {
+                SimpleMiniGames.startShapeFinder();
+            }
+        };
+    </script>
+</body>
+</html>
