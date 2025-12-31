@@ -1,20 +1,34 @@
-# 🧠 BrainBound - Learn & Play!
+# 🧠 BrainBound — Learn, Play, Grow
 
-> **Making learning fun and accessible through interactive educational gaming**
+▶ **Play the Game:** https://brain-bound.netlify.app/ 
+*(Runs directly in the browser — no installation required)*
 
-[![AETHRA GLOBAL GAMEATHON 2025](https://img.shields.io/badge/AETHRA%20GLOBAL-GAMEATHON%202025-667eea?style=for-the-badge)](https://discord.gg/tyna9bjWPj)
+---
+
+## AETHRA GLOBAL GAMEATHON 2025 Submission
+
+**BrainBound** is an interactive educational game that transforms learning into an adventure.  
+Built for the Aethra Global Gameathon 2025, the project aligns with the hackathon’s vision of creating games that **educate, inspire, and create positive real-world impact** through engaging gameplay.
+
+---
 
 ## 📝 Game Description
 
-**Title:** BrainBound  
-**Genre:** Educational Puzzle / Brain Training  
-**Core Concept:** An engaging educational game that transforms learning into an adventure, featuring themed puzzle packs, mini-games, and AI-powered adaptive difficulty to make education accessible and enjoyable for all ages.
+**Title:** BrainBound   
+**Core Concept:**  
+BrainBound is a web-based educational game that combines themed adventure worlds with brain-training puzzles and adaptive difficulty. The game encourages players to learn math, logic, and problem-solving skills through interactive challenges instead of traditional rote learning.
 
-**Target Audience:** Children (ages 6-14), students, and anyone who wants to sharpen their cognitive skills while having fun.
+**Target Audience:**  
+- Children (ages 6–14)  
+- Students and early learners  
+- Casual players interested in cognitive skill development  
 
-### 🎯 The Pitch
+---
 
-*"What if learning math, logic, and problem-solving felt like going on an adventure?"* BrainBound combines colorful themed worlds with brain-training puzzles that adapt to each player's skill level. From underwater mysteries to space exploration, every level is designed to educate while entertaining—proving that learning doesn't have to be boring.
+## 🎯 The Pitch
+
+*What if learning felt like an adventure instead of a task?*  
+BrainBound turns math, logic, and reasoning into immersive puzzle worlds that adapt to each player’s skill level—making education engaging, accessible, and fun for everyone.
 
 ---
 
@@ -22,137 +36,90 @@
 
 ### What Makes BrainBound Unique?
 
-- **🤖 AI-Powered Adaptive Difficulty** - The game analyzes player performance and adjusts puzzle complexity in real-time, ensuring an optimal challenge for every skill level
-- **🌍 Themed Adventure Packs** - Three immersive worlds (Underwater, Space, Jungle) with 20 levels each, featuring unique characters and storylines
-- **📈 Progressive Learning System** - XP rewards, level progression, badges, and daily streaks keep players motivated
-- **🎨 Multiple Puzzle Types** - Matching, Path Building, Sequencing, Logic Grids, and Mixed challenges
+- 🤖 **Adaptive Difficulty System**  
+  Player performance is continuously analyzed to adjust puzzle complexity in real time, ensuring a balanced challenge for beginners and advanced learners alike.
 
-### Core Mechanics & Controls
+- 🌍 **Themed Adventure Worlds**  
+  Players explore three distinct worlds—**Underwater**, **Space**, and **Jungle**—each containing structured level packs with increasing difficulty and narrative flavor.
 
-- **Point & Click / Touch** - Simple, intuitive controls accessible to all ages
-- **Drag & Drop** - For sequence puzzles and path building
-- **Match Selection** - Click items to create connections in matching puzzles
+- 📈 **Progression & Motivation**  
+  XP rewards, level unlocks, achievements, badges, and daily streaks encourage consistent engagement and learning.
 
-### Win/Loss Conditions
+- 🧠 **Multiple Puzzle Types**  
+  - Matching & pattern recognition  
+  - Sequencing & path building  
+  - Logic grids  
+  - Mixed problem-solving challenges  
 
-- ✅ **Win:** Complete puzzles correctly to earn XP and unlock new levels
-- 🔄 **Retry:** Incorrect answers provide hints and encourage another attempt
-- 🏆 **Progression:** Unlock new level packs and earn badges for achievements
+---
+
+### Core Controls
+
+- 🖱️ Point & Click (Desktop)  
+- 👆 Touch & Drag (Mobile & Tablet)  
+- 🎯 Simple interaction design suitable for all age groups  
+
+---
+
+### Win / Loss Conditions
+
+- ✅ **Win:** Solve puzzles correctly to earn XP and unlock new levels  
+- 🔄 **Retry:** Incorrect attempts provide hints and learning feedback  
+- 🏆 **Progression:** Unlock new worlds, mini-games, and achievements  
 
 ---
 
 ## 🎨 Technical Details
 
-### Engine/Tools Used
+### Engine / Tools Used
+- **HTML5, CSS3, JavaScript (Vanilla JS)**  
+- No external game engine required  
+- Lightweight, fast-loading architecture  
 
-- **Pure HTML5, CSS3, JavaScript** - No external game engine required
-- **Vanilla JS** - Lightweight, fast-loading gameplay
-- **AI Integration Module** - Custom adaptive difficulty system
-- **LocalStorage API** - Progress persistence without server requirements
+### Key Technologies
+- **Custom Adaptive Difficulty Module** (AI-inspired logic)  
+- **LocalStorage API** for progress persistence  
+- Fully client-side — no backend dependency  
 
-### Platform(s)
+---
 
-- 🌐 **Web Browser** (Chrome, Firefox, Safari, Edge)
-- 📱 **Mobile Responsive** - Works on tablets and smartphones
-- 💻 **Desktop** - Full experience on any modern computer
+### Platform Support
+- 🌐 Web Browsers (Chrome, Firefox, Safari, Edge)  
+- 📱 Mobile-responsive (phones & tablets)  
+- 💻 Desktop and laptop systems  
 
 ### System Requirements
-
-- Any modern web browser (2020+)
-- JavaScript enabled
-- No installation required - runs directly in browser
+- Any modern browser (2020+)  
+- JavaScript enabled  
+- No installation or downloads required  
 
 ---
 
 ## 📂 Submission Package
 
 ### 🎮 Playable Game
+The game runs directly in the browser.
 
-The game runs directly in any web browser. Simply open `index.html` to start playing!
+▶ **Live Game Link:** https://your-live-game-link-here  
 
-### 📋 Installation/Launch Instructions
+---
 
-1. Download or clone the repository
-2. Open `index.html` in any modern web browser
-3. Start playing immediately - no build process required!
+### 📋 Installation / Launch Instructions
 
-**For Local Development:**
+**Option 1: Play Online (Recommended)**  
+Simply open the live link above.
+
+**Option 2: Run Locally**
 ```bash
 # Clone the repository
-git clone [repository-url]
+git clone https://github.com/your-username/brainbound.git
 
 # Navigate to project folder
 cd brainbound
 
-# Open in browser (or use any local server)
-# Option 1: Direct file open
+# Open directly
 open index.html
 
-# Option 2: Using Python server
+# OR use a local server
 python -m http.server 8000
-# Then visit http://localhost:8000
-```
-
-### 🖼️ Screenshots
-
-| Main Menu | Level Selection | Puzzle Gameplay |
-|-----------|-----------------|-----------------|
-| Themed adventure packs | Progressive level unlock | Interactive puzzles |
-
-### 🎯 Game Features
-
-| Feature | Description |
-|---------|-------------|
-| 🌊 Underwater Adventure | 20 ocean-themed puzzle levels with Marina the Mermaid |
-| 🚀 Space Explorer | 20 cosmic levels with Captain Zara |
-| 🦁 Jungle Safari | 20 wild levels with Ranger Leo |
-| 🎮 Mini-Games | Memory Match, Color Match, Number Quiz, Shape Finder, Spin Wheel, Lucky Draw |
-| 📸 Safari Mode | Photo-based learning activities |
-| 🎨 Customization | Personalize your gaming experience |
-| 📊 Math Quizzes | Arithmetic, Algebra, and Geometry challenges (20 levels each) |
-
----
-
-## 🌍 Social Impact
-
-BrainBound addresses the challenge of **making education accessible and engaging**:
-
-- **💡 Educational Games That Make Learning Fun** - Transforms traditional math and logic concepts into exciting adventures
-- **🤝 Inclusive Design** - Simple controls and adaptive difficulty ensure players of all abilities can participate
-- **🧠 Cognitive Development** - Puzzles designed to improve problem-solving, pattern recognition, and mathematical thinking
-- **🌐 Accessibility** - Web-based platform requires no downloads or special hardware, making it accessible to students worldwide
-
----
-
-## 🏗️ Project Structure
-
-```
-brainbound/
-├── index.html              # Main game entry point
-├── game-core.js            # Core game engine
-├── ai-integration.js       # Adaptive difficulty AI
-├── quiz-levels-data.js     # Math quiz progression data
-├── mini-games.html         # Mini-games hub
-├── mini-games-simple.js    # Mini-game implementations
-├── safari-mode.html        # Safari learning mode
-├── customize.html          # Customization options
-├── style-advanced.css      # Game styling
-├── complete-level-pack-*.json  # Level data (underwater, space, jungle)
-└── *-quiz.html             # Individual quiz games
-```
-
----
-
-## 👥 Credits
-
-Built with ❤️ for **AETHRA GLOBAL GAMEATHON 2025**
-
----
-
-## 📜 License
-
-This project is submitted as part of the AETHRA GLOBAL GAMEATHON 2025 competition.
-
----
-
-*"Learning is an adventure. Let's explore together!"* 🚀
+# Visit http://localhost:8000
